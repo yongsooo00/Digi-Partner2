@@ -35,6 +35,11 @@ function familyOf(p) {
   if (d === 'Godzilla Color' || d.toLowerCase().includes('color')) return 'color';
   return null;
 }
+function dmxHeartCapacity(stage) {
+  if (stage === '성숙기' || stage === '완전체') return 3;
+  if (['궁극체', '초궁극체', '초초궁극체'].includes(stage)) return 4;
+  return 2;
+}
 function stageRemainingMs(p, now) {
   const family = familyOf(p);
   const minutes = family && STAGE_MINUTES[family]?.[p.stage];
@@ -189,7 +194,7 @@ async function checkPartner(env, row, now) {
     if (family === 'dmx') {
       const unitsKey = `${gauge}Units`, stampKey = `${gauge}DecayAt`;
       let units = Number(settings[unitsKey]);
-      if (!Number.isFinite(units)) units = 8;
+      if (!Number.isFinite(units)) units = dmxHeartCapacity(p.stage) * 2;
       const stamp = Number.isFinite(p[stampKey]) ? p[stampKey] : now;
       const drops = units > 0 ? Math.min(units, Math.floor(Math.max(0, now - stamp) / DMX_DECAY[gauge])) : 0;
       if (drops > 0) {
