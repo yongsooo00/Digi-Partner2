@@ -167,7 +167,9 @@ async function checkPartner(env, row, now) {
     }
   }
 
-  if (settings.enabled !== false) {
+  const notificationsEnabled = settings.enabled !== false;
+  // Evolution alerts are optional; all timers and gauge state continue regardless of notification settings.
+  if (notificationsEnabled) {
     const remaining = stageRemainingMs(p, now);
     if (remaining !== null && remaining > 0 && Array.isArray(settings.offsets)) {
       const offsets = [...new Set(settings.offsets.map(Number).filter(x => Number.isFinite(x) && x > 0))].sort((a,b) => b-a);
@@ -180,57 +182,68 @@ async function checkPartner(env, row, now) {
         });
       }
     }
+  }
 
-    const mode = settings.gauge || 'both';
-    if (mode !== 'off') {
-      for (const gauge of ['hunger', 'strength']) {
-        if (family === 'dmx') {
-          const unitsKey = `${gauge}Units`, stampKey = `${gauge}DecayAt`;
-          let units = Number(settings[unitsKey]);
-          if (!Number.isFinite(units)) units = 8;
-          const stamp = Number.isFinite(p[stampKey]) ? p[stampKey] : now;
-          const drops = units > 0 ? Math.min(units, Math.floor(Math.max(0, now - stamp) / DMX_DECAY[gauge])) : 0;
-          if (drops > 0) {
-            const before = units / 2; units = Math.max(0, units - drops);
-            settings[unitsKey] = units; p[stampKey] = stamp + drops * DMX_DECAY[gauge]; changed = true;
-            const after = units / 2;
-            if (gaugeThresholdCrossed(mode, before, after)) await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:${gauge}:${after}:dmx-gauge`, now, {
-              title: gauge === 'hunger' ? '배고픔 게이지 알림' : '힘 게이지 알림',
-              body: `${p.nickname || p.mon || '디지몬'}의 ${gauge === 'hunger' ? '배고픔' : '힘'} 하트가 ${after}칸 남았습니다.`,
-              url: APP_URL, tag: `digi-gauge-${row.partner_id}-${gauge}`
-            });
-          }
-        } else if (family === 'ver20' && !p.sleeping) {
-          const stamp = Number.isFinite(p.gaugeUpdatedAt) ? p.gaugeUpdatedAt : now;
-          const drops = Math.floor(Math.max(0, now - stamp) / VER20_GAUGE_CYCLE);
-          if (drops > 0) {
-            const before = Number(settings[gauge] ?? 4), after = Math.max(0, before - drops);
-            settings[gauge] = after;
-            if (gaugeThresholdCrossed(mode, before, after)) await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:${gauge}:${after}:ver20-gauge`, now, {
-              title: gauge === 'hunger' ? '배고픔 게이지 알림' : '훈련/힘 게이지 알림',
-              body: `${p.nickname || p.mon || '디지몬'}의 ${gauge === 'hunger' ? '배고픔' : '훈련/힘'} 하트가 ${after}칸 남았습니다.`,
-              url: APP_URL, tag: `digi-gauge-${row.partner_id}-${gauge}`
-            });
-          }
-          p.gaugeUpdatedAt = stamp + drops * VER20_GAUGE_CYCLE;
-          if (drops > 0) changed = true;
+  const mode = settings.gauge || 'both';
+  for (const gauge of ['hunger', 'strength']) {
+    if (family === 'dmx') {
+      const unitsKey = `${gauge}Units`, stampKey = `${gauge}DecayAt`;
+      let units = Number(settings[unitsKey]);
+      if (!Number.isFinite(units)) units = 8;
+      const stamp = Number.isFinite(p[stampKey]) ? p[stampKey] : now;
+      const drops = units > 0 ? Math.min(units, Math.floor(Math.max(0, now - stamp) / DMX_DECAY[gauge])) : 0;
+      if (drops > 0) {
+        const before = units / 2;
+        units = Math.max(0, units - drops);
+        settings[unitsKey] = units;
+        p[stampKey] = stamp + drops * DMX_DECAY[gauge];
+        changed = true;
+        const after = units / 2;
+        if (notificationsEnabled && gaugeThresholdCrossed(mode, before, after)) {
+          const key = `${row.partner_id}:${stageKey(p)}:${gauge}:${after}:dmx-gauge`;
+          await notifyOnce(env, row.device_id, key, now, {
+            title: gauge === 'hunger' ? '배고픔 게이지 알림' : '힘 게이지 알림',
+            body: `${p.nickname || p.mon || '디지몬'}의 ${gauge === 'hunger' ? '배고픔' : '힘'} 하트가 ${after}칸 남았습니다.`,
+            url: APP_URL, tag: `digi-gauge-${row.partner_id}-${gauge}`
+          });
         }
       }
-    }
-
-    if (family === 'ver20' && p.nightSleepReminderEligible && !p.nightSleepReminderDone && p.stage !== '알' && !p.sleeping && p.nightSleepReminderStart) {
-      const count = Number(p.nightSleepReminderCount || 0), last = Number(p.nightSleepReminderLastAt || p.nightSleepReminderStart);
-      if (count < 5 && now - last >= NIGHT_REMINDER_INTERVAL) {
-        const next = count + 1;
-        p.nightSleepReminderCount = next; p.nightSleepReminderLastAt = now;
-        if (next >= 5) p.nightSleepReminderDone = true;
-        p.nightSleepReminderMessage = `수면 안내 ${next}/5 · 실제 기기에서 디지몬이 잠들었다면 지금 [수면 처리]를 눌러 주세요.`;
-        await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:night-sleep:${next}`, now, {
-          title: 'Ver.20th 수면 처리 안내', body: p.nightSleepReminderMessage,
-          url: APP_URL, tag: `digi-sleep-reminder-${row.partner_id}-${next}`
-        });
+    } else if (family === 'ver20' && !p.sleeping) {
+      const stamp = Number.isFinite(p.gaugeUpdatedAt) ? p.gaugeUpdatedAt : now;
+      const drops = Math.floor(Math.max(0, now - stamp) / VER20_GAUGE_CYCLE);
+      if (drops > 0) {
+        const before = Number(settings[gauge] ?? 4);
+        const after = Math.max(0, before - drops);
+        settings[gauge] = after;
+        if (notificationsEnabled && gaugeThresholdCrossed(mode, before, after)) {
+          const key = `${row.partner_id}:${stageKey(p)}:${gauge}:${after}:ver20-gauge`;
+          await notifyOnce(env, row.device_id, key, now, {
+            title: gauge === 'hunger' ? '배고픔 게이지 알림' : '훈련/힘 게이지 알림',
+            body: `${p.nickname || p.mon || '디지몬'}의 ${gauge === 'hunger' ? '배고픔' : '훈련/힘'} 하트가 ${after}칸 남았습니다.`,
+            url: APP_URL, tag: `digi-gauge-${row.partner_id}-${gauge}`
+          });
+        }
+        p.gaugeUpdatedAt = stamp + drops * VER20_GAUGE_CYCLE;
         changed = true;
       }
+    }
+  }
+
+  // Advance the reminder state while closed; the notification toggle controls delivery only.
+  if (family === 'ver20' && p.nightSleepReminderEligible && !p.nightSleepReminderDone && p.stage !== '알' && !p.sleeping && p.nightSleepReminderStart) {
+    const count = Number(p.nightSleepReminderCount || 0);
+    const last = Number(p.nightSleepReminderLastAt || p.nightSleepReminderStart);
+    if (count < 5 && now - last >= NIGHT_REMINDER_INTERVAL) {
+      const next = count + 1;
+      p.nightSleepReminderCount = next;
+      p.nightSleepReminderLastAt = now;
+      if (next >= 5) p.nightSleepReminderDone = true;
+      p.nightSleepReminderMessage = `수면 안내 ${next}/5 · 실제 기기에서 디지몬이 잠들었다면 지금 [수면 처리]를 눌러 주세요.`;
+      if (notificationsEnabled) await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:night-sleep:${next}`, now, {
+        title: 'Ver.20th 수면 처리 안내', body: p.nightSleepReminderMessage,
+        url: APP_URL, tag: `digi-sleep-reminder-${row.partner_id}-${next}`
+      });
+      changed = true;
     }
   }
 
