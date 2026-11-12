@@ -114,12 +114,23 @@ async function handleRequest(request, env) {
     const body = await request.json().catch(() => null);
     if (!body?.deviceId || !Array.isArray(body.partners)) return json({ ok: false, error: 'deviceId and partners[] required' }, 400, headers);
     const now = Date.now(); let saved = 0;
+    const activeIds = new Set();
     for (const p of body.partners) {
       if (!p?.id || !familyOf(p)) continue;
+      const partnerId = String(p.id);
+      activeIds.add(partnerId);
       await env.DB.prepare(`INSERT INTO partners(partner_id, device_id, state_json, updated_at)
         VALUES(?, ?, ?, ?) ON CONFLICT(partner_id) DO UPDATE SET device_id=excluded.device_id, state_json=excluded.state_json, updated_at=excluded.updated_at`)
-        .bind(String(p.id), String(body.deviceId), JSON.stringify(p), now).run();
+        .bind(partnerId, String(body.deviceId), JSON.stringify(p), now).run();
       saved++;
+    }
+    // Remove server-side records for partners deleted from this app's local list.
+    const existing = await env.DB.prepare('SELECT partner_id FROM partners WHERE device_id = ?').bind(String(body.deviceId)).all();
+    for (const row of existing.results || []) {
+      if (!activeIds.has(String(row.partner_id))) {
+        await env.DB.prepare('DELETE FROM partners WHERE partner_id = ? AND device_id = ?')
+          .bind(String(row.partner_id), String(body.deviceId)).run();
+      }
     }
     return json({ ok: true, saved, updatedAt: now }, 200, headers);
   }
