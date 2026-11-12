@@ -1,0 +1,12 @@
+{
+  "id": "./",
+  "name": "Digi Partner",
+  "short_name": "Digi Partner",
+  "description": "Digimon raising companion",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1b22",
+  "theme_color": "#0d1b22"
+}
