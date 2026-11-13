@@ -139,7 +139,8 @@ function mergeServerManagedState(incoming, storedJson) {
   // Server sleep reminders may advance while this partner is not the active
   // screen. Do not roll their counters backwards with an older local copy.
   const sameStage = previous.stage === incoming.stage && previous.mon === incoming.mon;
-  if (sameStage && Number(previous.nightSleepReminderCount || 0) > Number(incoming.nightSleepReminderCount || 0)) {
+  if (sameStage && !incoming.sleeping && incoming.nightSleepReminderDone !== true &&
+      Number(previous.nightSleepReminderCount || 0) > Number(incoming.nightSleepReminderCount || 0)) {
     for (const key of ['nightSleepReminderCount', 'nightSleepReminderLastAt',
       'nightSleepReminderDone', 'nightSleepReminderMessage']) next[key] = previous[key];
   }
