@@ -113,24 +113,25 @@ function mergeServerManagedState(incoming, storedJson) {
       incoming.sleepStartedAt === previous.lastAutoWakeSleepStartedAt &&
       previous.sleeping === false) {
     for (const key of ['sleeping', 'sleepStartedAt', 'sleepWakeAtAbs',
-      'stageElapsed', 'stageStarted', 'totalElapsed', 'totalStarted', 'gaugeUpdatedAt']) {
+      'stageElapsed', 'stageStarted', 'totalElapsed', 'totalStarted', 'gaugeUpdatedAt', 'hungerGaugeUpdatedAt', 'strengthGaugeUpdatedAt']) {
       next[key] = previous[key] ?? (key === 'sleeping' ? false : null);
     }
     next.lastAutoWakeSleepStartedAt = previous.lastAutoWakeSleepStartedAt;
   }
 
-  // Preserve server-side gauge decay if a stale snapshot arrives. A manual
-  // feed/adjustment advances the corresponding timestamp and remains accepted.
-  if (Number(previous.gaugeUpdatedAt) > Number(incoming.gaugeUpdatedAt || 0)) {
-    next.gaugeUpdatedAt = previous.gaugeUpdatedAt;
-    for (const key of ['hunger', 'strength']) {
-      if (previous.notifications?.[key] !== undefined) next.notifications[key] = previous.notifications[key];
-    }
-  }
+  // Keep each Ver.20th gauge clock independent so one gauge cannot consume
+  // the other's elapsed interval. Preserve server decay against stale snapshots.
   for (const gauge of ['hunger', 'strength']) {
-    const stamp = gauge + 'DecayAt';
-    if (Number(previous[stamp]) > Number(incoming[stamp] || 0)) {
-      next[stamp] = previous[stamp];
+    const stampKey = gauge + 'GaugeUpdatedAt';
+    const previousStamp = Number(previous[stampKey] ?? previous.gaugeUpdatedAt ?? 0);
+    const incomingStamp = Number(incoming[stampKey] ?? incoming.gaugeUpdatedAt ?? 0);
+    if (previousStamp > incomingStamp) {
+      next[stampKey] = previousStamp;
+      if (previous.notifications?.[gauge] !== undefined) next.notifications[gauge] = previous.notifications[gauge];
+    }
+    const decayStamp = gauge + 'DecayAt';
+    if (Number(previous[decayStamp]) > Number(incoming[decayStamp] || 0)) {
+      next[decayStamp] = previous[decayStamp];
       const units = gauge + 'Units';
       if (previous.notifications?.[units] !== undefined) next.notifications[units] = previous.notifications[units];
     }
@@ -265,7 +266,10 @@ async function checkPartner(env, row, now) {
         }
       }
     } else if (family === 'ver20' && !p.sleeping) {
-      const stamp = Number.isFinite(p.gaugeUpdatedAt) ? p.gaugeUpdatedAt : now;
+      const stampKey = gauge + 'GaugeUpdatedAt';
+      const stamp = Number.isFinite(p[stampKey])
+        ? p[stampKey]
+        : (Number.isFinite(p.gaugeUpdatedAt) ? p.gaugeUpdatedAt : now);
       const drops = Math.floor(Math.max(0, now - stamp) / VER20_GAUGE_CYCLE);
       if (drops > 0) {
         const before = Number(settings[gauge] ?? 4);
@@ -279,7 +283,7 @@ async function checkPartner(env, row, now) {
             url: APP_URL, tag: `digi-gauge-${row.partner_id}-${gauge}`
           });
         }
-        p.gaugeUpdatedAt = stamp + drops * VER20_GAUGE_CYCLE;
+        p[stampKey] = stamp + drops * VER20_GAUGE_CYCLE;
         changed = true;
       }
     }
