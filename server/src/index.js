@@ -99,6 +99,53 @@ function gaugeThresholdCrossed(mode, before, after) {
   return (before > 1 && after <= 1) || (before > 0 && after <= 0);
 }
 
+function mergeServerManagedState(incoming, storedJson) {
+  let previous;
+  try { previous = JSON.parse(storedJson || 'null'); } catch { previous = null; }
+  if (!previous) return incoming;
+  const next = { ...incoming, notifications: { ...(incoming.notifications || {}) } };
+
+  // A server auto-wake must not be undone by another tab/device snapshot
+  // that still contains the same, already-finished sleep session.
+  if (previous.lastAutoWakeSleepStartedAt != null &&
+      incoming.sleeping === true &&
+      incoming.sleepStartedAt === previous.lastAutoWakeSleepStartedAt &&
+      previous.sleeping === false) {
+    for (const key of ['sleeping', 'sleepStartedAt', 'sleepWakeAtAbs',
+      'stageElapsed', 'stageStarted', 'totalElapsed', 'totalStarted', 'gaugeUpdatedAt']) {
+      next[key] = previous[key] ?? (key === 'sleeping' ? false : null);
+    }
+    next.lastAutoWakeSleepStartedAt = previous.lastAutoWakeSleepStartedAt;
+  }
+
+  // Preserve server-side gauge decay if a stale snapshot arrives. A manual
+  // feed/adjustment advances the corresponding timestamp and remains accepted.
+  if (Number(previous.gaugeUpdatedAt) > Number(incoming.gaugeUpdatedAt || 0)) {
+    next.gaugeUpdatedAt = previous.gaugeUpdatedAt;
+    for (const key of ['hunger', 'strength']) {
+      if (previous.notifications?.[key] !== undefined) next.notifications[key] = previous.notifications[key];
+    }
+  }
+  for (const gauge of ['hunger', 'strength']) {
+    const stamp = gauge + 'DecayAt';
+    if (Number(previous[stamp]) > Number(incoming[stamp] || 0)) {
+      next[stamp] = previous[stamp];
+      const units = gauge + 'Units';
+      if (previous.notifications?.[units] !== undefined) next.notifications[units] = previous.notifications[units];
+    }
+  }
+
+  // Server sleep reminders may advance while this partner is not the active
+  // screen. Do not roll their counters backwards with an older local copy.
+  const sameStage = String(previous.stageToken || previous.stageStarted || previous.start || '') ===
+    String(incoming.stageToken || incoming.stageStarted || incoming.start || '');
+  if (sameStage && Number(previous.nightSleepReminderCount || 0) > Number(incoming.nightSleepReminderCount || 0)) {
+    for (const key of ['nightSleepReminderCount', 'nightSleepReminderLastAt',
+      'nightSleepReminderDone', 'nightSleepReminderMessage']) next[key] = previous[key];
+  }
+  return next;
+}
+
 async function handleRequest(request, env) {
   const headers = cors(request, env);
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers });
@@ -124,9 +171,11 @@ async function handleRequest(request, env) {
       if (!p?.id || !familyOf(p)) continue;
       const partnerId = String(p.id);
       activeIds.add(partnerId);
+      const previous = await env.DB.prepare('SELECT state_json FROM partners WHERE partner_id = ?').bind(partnerId).first();
+      const merged = mergeServerManagedState(p, previous?.state_json);
       await env.DB.prepare(`INSERT INTO partners(partner_id, device_id, state_json, updated_at)
         VALUES(?, ?, ?, ?) ON CONFLICT(partner_id) DO UPDATE SET device_id=excluded.device_id, state_json=excluded.state_json, updated_at=excluded.updated_at`)
-        .bind(partnerId, String(body.deviceId), JSON.stringify(p), now).run();
+        .bind(partnerId, String(body.deviceId), JSON.stringify(merged), now).run();
       saved++;
     }
     // Remove server-side records for partners deleted from this app's local list.
@@ -162,7 +211,8 @@ async function checkPartner(env, row, now) {
   if (p.sleeping && family === 'ver20') {
     if (p.sleepWakeAtAbs == null) { p.sleepWakeAtAbs = nextWakeAbs(p, now); changed = true; }
     if (deviceClockAbs(p, now) >= p.sleepWakeAtAbs) {
-      p.sleeping = false; p.sleepWakeAtAbs = null;
+      p.lastAutoWakeSleepStartedAt = p.sleepStartedAt ?? null;
+      p.sleeping = false; p.sleepStartedAt = null; p.sleepWakeAtAbs = null;
       p.stageStarted = now; p.totalStarted = now; p.gaugeUpdatedAt = now;
       changed = true;
       if (settings.enabled !== false) await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:auto-wake`, now, {
