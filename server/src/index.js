@@ -68,6 +68,7 @@ async function markSent(env, key, now) {
 }
 async function sendToDevice(env, deviceId, payload) {
   const rows = await env.DB.prepare('SELECT endpoint, subscription_json FROM push_subscriptions WHERE device_id = ?').bind(deviceId).all();
+  if (!(rows.results || []).length) return { delivered: 0, removed: 0, failed: 0 };
   if (!env.VAPID_PUBLIC_KEY || !env.VAPID_PRIVATE_KEY) throw new Error('VAPID secrets are not configured');
   const vapid = { publicKey: env.VAPID_PUBLIC_KEY, privateKey: JSON.parse(env.VAPID_PRIVATE_KEY), subject: env.VAPID_SUBJECT || 'mailto:admin@example.com' };
   let delivered = 0, removed = 0, failed = 0;
@@ -137,8 +138,7 @@ function mergeServerManagedState(incoming, storedJson) {
 
   // Server sleep reminders may advance while this partner is not the active
   // screen. Do not roll their counters backwards with an older local copy.
-  const sameStage = String(previous.stageToken || previous.stageStarted || previous.start || '') ===
-    String(incoming.stageToken || incoming.stageStarted || incoming.start || '');
+  const sameStage = previous.stage === incoming.stage && previous.mon === incoming.mon;
   if (sameStage && Number(previous.nightSleepReminderCount || 0) > Number(incoming.nightSleepReminderCount || 0)) {
     for (const key of ['nightSleepReminderCount', 'nightSleepReminderLastAt',
       'nightSleepReminderDone', 'nightSleepReminderMessage']) next[key] = previous[key];
