@@ -1,0 +1,11 @@
+name = "digi-partner-server"
+main = "src/index.js"
+compatibility_date = "2026-11-12"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "digi-partner-db"
+database_id = "3e1c7b63-f5a9-418b-9556-3d2984aa586c"
+
+[triggers]
+crons = ["* * * * *"]
