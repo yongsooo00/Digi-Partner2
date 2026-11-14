@@ -496,8 +496,8 @@ function codexIsCollected(entry,deviceName){const group=codexGroupForDevice(devi
 function codexEntryForDevice(entry,deviceName){
  const group=codexGroupForDevice(deviceName);
  if(!group||!(entry.devices||[]).includes(group))return false;
- if(deviceName==='Ver.20th A'&&entry.name.startsWith("Yamato's "))return false;
- if(deviceName==='Ver.20th B'&&entry.name.startsWith("Taichi's "))return false;
+ if(deviceName==='Ver.20th A'&&["Yamato's Gabumon","Yamato's Garurumon","Yamato's Were Garurumon"].includes(entry.name))return false;
+ if(deviceName==='Ver.20th B'&&["Taichi's Agumon","Taichi's Greymon","Taichi's Metal Greymon"].includes(entry.name))return false;
  return true;
 }
 async function renderCodex(){
