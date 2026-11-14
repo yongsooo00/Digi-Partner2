@@ -75,7 +75,7 @@
       ],
       "stage": "초궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v2/564.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/penc/v2/564.png",
         "author": "Bandai",
         "source": "Pendulum Color 2 Deep Savers",
         "size": "48x48",
@@ -95,7 +95,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/240.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/240.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -130,7 +130,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/330.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/330.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -159,7 +159,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Alphamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Alphamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -174,7 +174,12 @@
         "Digimon X XC"
       ],
       "stage": "초궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/tdu/sprites/ancientsphinx/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Andromon",
@@ -186,7 +191,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/375.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/375.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -205,7 +210,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/316.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/316.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -221,7 +226,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Apollomon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Apollomon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -247,7 +252,12 @@
         "Ver.20th E"
       ],
       "stage": "유년기 II",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/special_edition/dbl/sprites/babyd/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Bagramon",
@@ -256,7 +266,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Ultimate-Super Ultimate/Bagramon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Ultimate-Super Ultimate/Bagramon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -275,7 +285,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/315.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/315.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -293,7 +303,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/special_edition/25th/sprites/banchomame_d/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Bao Hackmon",
@@ -304,7 +319,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/special_edition/dbl/sprites/baohack/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Barbamon X",
@@ -349,7 +369,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/255.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/255.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -376,7 +396,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/346.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/346.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -402,7 +422,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/agu_ex/sprites/blitzgrey/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Botamon",
@@ -415,7 +440,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/210.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/210.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -434,7 +459,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Breakdramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Breakdramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -501,7 +526,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/ChoHakkaimon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Perfect/ChoHakkaimon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -519,7 +544,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/fairi_ex/sprites/cockatri/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Coelamon",
@@ -531,7 +561,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/346.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/346.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -550,7 +580,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coredramon(Blue)/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Coredramon(Blue)/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -569,7 +599,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coredramon(Green)/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Coredramon(Green)/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -585,7 +615,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coronamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Coronamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -611,7 +641,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/gabu_ex/sprites/cresgaruru/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Crescemon",
@@ -620,7 +655,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Crescemon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Perfect/Crescemon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -647,7 +682,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Damemon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Damemon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -665,7 +700,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/doru/sprites/darktyrano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Dark Tyranomon X",
@@ -685,7 +725,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/377.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/377.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -720,7 +760,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/332.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/332.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -739,7 +779,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/300.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/300.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -763,7 +803,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Dianamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Dianamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -782,7 +822,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/421.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/421.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -801,7 +841,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/decoga/Dodomon/a_dodomon_idle_1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/decoga/Dodomon/a_dodomon_idle_1.png",
         "author": "decoga",
         "source": "Digimon Unlimited",
         "size": "48x48",
@@ -820,7 +860,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/decoga/Dorimon/a_dorimon_idle_1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/decoga/Dorimon/a_dorimon_idle_1.png",
         "author": "decoga",
         "source": "Digimon Unlimited",
         "size": "48x48",
@@ -839,7 +879,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/DORUgamon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/DORUgamon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -857,7 +897,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/doru/sprites/dorugure/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "DORUmon",
@@ -869,7 +914,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/DORUmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Child/DORUmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -888,7 +933,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Dracomon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Dracomon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -915,7 +960,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/345.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/345.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -930,7 +975,12 @@
         "Digimon X XA/XB"
       ],
       "stage": "초궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/guil_ex/sprites/duke_x/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Duramon",
@@ -942,7 +992,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Duramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Duramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -961,7 +1011,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Durandamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Durandamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -977,7 +1027,7 @@
       ],
       "stage": "하이브리드체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Armor-Hybrid/Duskmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Armor-Hybrid/Duskmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -996,7 +1046,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/271.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/271.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -1015,7 +1065,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/405.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/405.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -1033,7 +1083,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/mbr/sprites/extyrano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Examon",
@@ -1045,7 +1100,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Examon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Examon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -1062,7 +1117,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Filmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Filmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1078,7 +1133,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Firamon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Firamon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1102,7 +1157,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Flaremon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Perfect/Flaremon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1121,7 +1176,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/362.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/362.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -1140,7 +1195,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/256.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/256.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -1167,7 +1222,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/301.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/301.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -1186,7 +1241,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/272.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/272.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -1213,7 +1268,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/390.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/390.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -1232,7 +1287,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/287.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/287.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -1304,7 +1359,12 @@
         "Digimon X XC"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/blitz_ex/sprites/grandiskuwaga/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Greymon",
@@ -1317,7 +1377,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/270.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/270.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -1336,7 +1396,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Groundramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Groundramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -1362,7 +1422,12 @@
         "Ver.20th E"
       ],
       "stage": "성장기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/special_edition/dbl/sprites/hack/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Herissmon",
@@ -1372,7 +1437,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Herissmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Child/Herissmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1390,7 +1455,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/looga/sprites/hiandro/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Jesmon",
@@ -1402,7 +1472,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Jesmon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Jesmon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -1429,7 +1499,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/286.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/286.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -1445,7 +1515,12 @@
         "Digimon X XC"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/louwe_ex/sprites/kaiserleo/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Kiimon",
@@ -1453,7 +1528,12 @@
         "Digimon X XC"
       ],
       "stage": "유년기 I",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/other/imp_gp/sprites/kii/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "King Etemon",
@@ -1464,7 +1544,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/ryuda/sprites/kingete/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "King Ghidorah (1991)",
@@ -1502,7 +1587,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/225.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/225.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -1521,7 +1606,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/255.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/255.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -1540,7 +1625,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/331.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/331.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -1574,7 +1659,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Lekismon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Lekismon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1593,7 +1678,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/316.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/316.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -1664,7 +1749,12 @@
         "Digimon X XA/XB"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/louwe_ex/sprites/luce_f/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Lunamon",
@@ -1673,7 +1763,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Lunamon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Child/Lunamon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1692,7 +1782,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/390.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/390.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -1708,7 +1798,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Mametyramon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Perfect/Mametyramon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1759,7 +1849,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/391.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/391.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -1791,7 +1881,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Meicoomon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Meicoomon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -1818,7 +1908,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/315.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/315.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -1852,7 +1942,12 @@
         "Godzilla Color"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/agu_ex/sprites/metalgrey_va/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Metal Greymon (Virus) X",
@@ -1887,7 +1982,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/nme/sprites/metalmame/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Metal Tyranomon",
@@ -1898,7 +1998,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/agu_ex/sprites/metaltyrano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Metal Tyranomon X",
@@ -1926,7 +2031,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/361.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/361.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -1945,7 +2050,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/286.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/286.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -1961,7 +2066,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Monodramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Monodramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -1980,7 +2085,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/405.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/405.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -2006,7 +2111,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/doru/sprites/mugendra/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Mugendramon: MFS-3 Kai",
@@ -2026,7 +2136,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/376.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/376.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -2044,7 +2154,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/chack_ex/sprites/nano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Numemon",
@@ -2056,7 +2171,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/360.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/360.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -2081,7 +2196,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v0/252.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/penc/v0/252.png",
         "author": "Bandai",
         "source": "Pendulum Color 0 Virus Busters",
         "size": "48x48",
@@ -2108,7 +2223,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/300.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/300.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2166,7 +2281,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/257.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/257.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -2185,7 +2300,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/271.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/271.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -2204,7 +2319,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/240.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/240.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2223,7 +2338,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby I/Petitmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Baby I/Petitmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -2241,7 +2356,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/v/espi/sprites/piccolo/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Pinochimon",
@@ -2261,7 +2381,12 @@
         "Ver.20th D"
       ],
       "stage": "유년기 I",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/iti/sprites/pitch/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Piyomon",
@@ -2300,7 +2425,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/210.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/210.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2324,7 +2449,12 @@
         "Ver.20th D"
       ],
       "stage": "유년기 II",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/iti/sprites/puka/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Punimon",
@@ -2336,7 +2466,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/226.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/226.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -2352,7 +2482,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby I/Puttimon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Baby I/Puttimon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -2368,7 +2498,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v4/528.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/penc/v4/528.png",
         "author": "Bandai",
         "source": "Pendulum Color 4 Wind Guardians",
         "size": "48x48",
@@ -2383,7 +2513,12 @@
         "Digimon X XC"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/louwe_ex/sprites/raihi/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Raremon",
@@ -2396,7 +2531,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/392.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/392.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -2413,7 +2548,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasenmon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Rasenmon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2430,7 +2565,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasenmon FM/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Rasenmon FM/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2446,7 +2581,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasielmon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Rasielmon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2496,7 +2631,12 @@
         "Ver.20th E"
       ],
       "stage": "초궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/looga/sprites/rusttyrano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Sakumon",
@@ -2508,7 +2648,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Sakumon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Sakumon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2527,7 +2667,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/sakuttomon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/sakuttomon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2542,7 +2682,12 @@
         "Digimon X XA/XB"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/rena_ex/sprites/sakuya_x/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Sangloupmon",
@@ -2551,7 +2696,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Sangloupmon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Sangloupmon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2569,7 +2714,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/special_edition/dbl/sprites/saviorhack/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Scumon",
@@ -2592,7 +2742,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/345.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v1/345.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 1",
         "size": "48x48",
@@ -2611,7 +2761,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/330.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/330.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2627,7 +2777,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Sistermon_Blanc-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Child/Sistermon_Blanc-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -2643,7 +2793,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/ilabb/sistermon_ciel/a_ciel*ilabb_idle_1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/ilabb/sistermon_ciel/a_ciel*ilabb_idle_1.png",
         "author": "ilabb",
         "source": "출처 미기재",
         "size": "48x48",
@@ -2658,7 +2808,12 @@
         "Digimon X XA/XB"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/v/angora/sprites/skullbaluchi/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Skull Greymon",
@@ -2669,7 +2824,12 @@
         "Ver.20th E"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/mbr/sprites/skullgrey/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Skull Greymon: G-Erosion Mode",
@@ -2688,7 +2848,12 @@
         "Ver.20th E"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/bfa/sprites/skullmam/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Skull Mammon X",
@@ -2708,7 +2873,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Slayerdramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Slayerdramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2740,7 +2905,12 @@
         "Digimon X XC"
       ],
       "stage": "완전체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/seekers/looga/sprites/stiffil/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Taichi's Agumon",
@@ -2787,7 +2957,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/241.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/241.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -2806,7 +2976,7 @@
       ],
       "stage": "궁극체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Titamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Titamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -2822,7 +2992,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Tobucatmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Adult/Tobucatmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -2841,7 +3011,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/225.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/225.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2887,7 +3057,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/347.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/347.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
@@ -2905,7 +3075,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/vbe/sprites/tyrano/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Tyranomon X",
@@ -2921,7 +3096,12 @@
         "Digimon X XC"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/v/gamma/sprites/ultimatebrachi/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Unimon",
@@ -2933,7 +3113,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/270.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v3/270.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 3",
         "size": "48x48",
@@ -2952,7 +3132,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/421.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/421.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -2978,7 +3158,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/hju/sprites/vegi/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Velgrmon",
@@ -2988,7 +3173,7 @@
       ],
       "stage": "하이브리드체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Armor-Hybrid/Velgrmon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Armor-Hybrid/Velgrmon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -3003,7 +3188,12 @@
         "Godzilla Color"
       ],
       "stage": "궁극체",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/ex/agu_ex/sprites/wargrey/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "War Greymon X",
@@ -3039,7 +3229,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/361.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v2/361.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 2",
         "size": "48x48",
@@ -3058,7 +3248,7 @@
       ],
       "stage": "완전체",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Wingdramon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Wingdramon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -3074,7 +3264,7 @@
       ],
       "stage": "유년기 II",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby II/Yaamon-1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/tortoisehel/Baby II/Yaamon-1.png",
         "author": "tortoisehel",
         "source": "출처 미기재",
         "size": "48x48",
@@ -3135,7 +3325,12 @@
         "Ver.20th E"
       ],
       "stage": "성숙기",
-      "sprite": null
+      "sprite": {
+        "url": "https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/vol/bfa/sprites/yukidaru/frame1.gif",
+        "style": "Dot",
+        "size": "48x48",
+        "source": "Vital Bracelet sprite dataset"
+      }
     },
     {
       "name": "Yukimibotamon",
@@ -3144,7 +3339,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v0/240.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/penc/v0/240.png",
         "author": "Bandai",
         "source": "Pendulum Color 0 Virus Busters",
         "size": "48x48",
@@ -3163,7 +3358,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/226.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v4/226.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 4",
         "size": "48x48",
@@ -3190,7 +3385,7 @@
       ],
       "stage": "성숙기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Zubaeagermon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Zubaeagermon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -3209,7 +3404,7 @@
       ],
       "stage": "성장기",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Zubamon/01_idle1.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/dmul/Zubamon/01_idle1.png",
         "author": "Unknown",
         "source": "DMUL",
         "size": "48x48",
@@ -3228,7 +3423,7 @@
       ],
       "stage": "유년기 I",
       "sprite": {
-        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/242.png",
+        "url": "https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/original/dmc/v5/242.png",
         "author": "Bandai",
         "source": "Digimon Color Ver. 5",
         "size": "48x48",
