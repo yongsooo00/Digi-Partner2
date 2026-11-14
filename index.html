@@ -70,7 +70,7 @@ button{transition:transform .15s ease,border-color .15s ease,filter .15s ease}bu
 .codex-meta{padding:9px;min-width:0}
 .codex-meta b{display:block;font-size:13px;line-height:1.35;overflow-wrap:anywhere}
 .codex-meta .small{font-size:10px;line-height:1.45;margin-top:4px}
-.codex-credit{font-size:9px;line-height:1.4;color:var(--muted);margin-top:6px;overflow-wrap:anywhere}
+.codex-device-section{margin-top:22px}.codex-device-title{font-size:18px;font-weight:900;padding:10px 12px;border-left:3px solid var(--mint);background:#213b43;border-radius:8px;margin:0 0 12px}.codex-stage-section{margin:14px 0}.codex-stage-title{font-size:13px;color:var(--mint);font-weight:800;margin:0 0 8px;padding-bottom:6px;border-bottom:1px solid #45666a88}.codex-stage-empty{font-size:11px;color:var(--muted);padding:4px 2px}.codex-credit{display:none}
 @media(min-width:620px){.codex-grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}}
 @media(max-width:380px){.codex-controls{grid-template-columns:1fr}}
 </style></head><body>
@@ -83,14 +83,14 @@ button{transition:transform .15s ease,border-color .15s ease,filter .15s ease}bu
 <div class="section-head"><div><span class="eyebrow">DIGITAL ARCHIVE</span><h1>디지몬 도감</h1></div><span class="tag" id="codexProgress">0 / 246 기록</span></div>
 <p class="small">지원 기기의 디지몬을 미리 수록했습니다. Ver.20th A/B/C/D/E의 기기별 출현 종을 구분해 수록했습니다. 기기별 목록은 공식 기기 색상별 차이를 정리한 자료를 기준으로 분류했습니다. 육성 중 진화한 디지몬은 진화 이력으로 자동 수집 처리됩니다.</p>
 <div class="codex-controls">
-<select id="codexDeviceFilter"><option value="">모든 지원 기기</option><option value="Ver.20th A/B 기준">Ver.20th A/B</option><option value="Ver.20th C">Ver.20th C</option><option value="Ver.20th D">Ver.20th D</option><option value="Ver.20th E">Ver.20th E</option><option value="Digimon X XA/XB">Digimon X XA/XB</option><option value="Digimon X XC">Digimon X XC</option><option value="Godzilla Color">Godzilla Color</option></select>
+<select id="codexDeviceFilter"><option value="">모든 지원 기기</option><option value="Ver.20th A">Ver.20th A</option><option value="Ver.20th B">Ver.20th B</option><option value="Ver.20th C">Ver.20th C</option><option value="Ver.20th D">Ver.20th D</option><option value="Ver.20th E">Ver.20th E</option><option value="Digimon X XA/XB">Digimon X XA/XB</option><option value="Digimon X XC">Digimon X XC</option><option value="Godzilla Color">Godzilla Color</option></select>
 <select id="codexStageFilter"><option value="">전체 성장 단계</option><option value="유년기 I">유년기 I</option><option value="유년기 II">유년기 II</option><option value="성장기">성장기</option><option value="성숙기">성숙기</option><option value="완전체">완전체</option><option value="궁극체">궁극체</option><option value="초궁극체">초궁극체</option><option value="하이브리드체">하이브리드체</option><option value="__unknown">단계 미확인</option></select>
 <select id="codexCollectionFilter"><option value="all">전체 디지몬</option><option value="collected">육성 기록 있음</option><option value="uncollected">아직 미발견</option></select>
 </div>
 <label for="codexSearch">디지몬 검색</label><input id="codexSearch" type="search" placeholder="영문 이름으로 검색">
 <div id="codexSummary" class="small" style="margin-top:10px"></div>
 <div id="codexGrid" class="codex-grid"></div>
-<p class="mini" style="margin-top:14px">이미지 출처와 제작자를 각 카드에 표시합니다. 일부 디지몬은 원본 도트 자료가 없어 디지털 아카이브 대체 디자인으로 표시됩니다.</p>
+<p class="mini" style="margin-top:14px">이미지가 등록되지 않은 디지몬은 이름과 성장 단계로 확인할 수 있습니다.</p>
 </div>
 </section>
 <section id="setup" class="hidden"><div class="panel"><h1>기기 등록</h1><label>기기</label><div class="grid" id="devices"></div><label>알 / 진화 계열</label><div class="grid" id="eggs"></div><p class="small" id="eggNote"></p><label>파트너 이름 (별칭)</label><input id="nickname" placeholder="별칭은 선택 사항"><div class="note" style="margin-top:12px">실제 기기의 알 등장 순간 최종 START를 누르세요. 앱의 총 육성 시간과 단계별 진화 시간은 별도로 관리됩니다.</div><div class="actions"><button id="cancel">취소</button><button class="primary" id="ready">시작 화면</button></div></div></section>
@@ -490,9 +490,16 @@ function page(id){['home','codex','setup','readyPage','detail','settings'].forEa
 function fmt(ms){let s=Math.max(0,Math.floor(ms/1000)),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),z=s%60;return(d?d+'일 ':'')+[h,m,z].map(n=>String(n).padStart(2,'0')).join(':')}
 function pnow(){return db.find(p=>p.id===activeId)}function effectiveNow(p){return Date.now()}function sleepPauses(p){return p.sleeping&&deviceFamily(p)==='ver20'}function elapsed(p){let n=effectiveNow(p);return(p.stageElapsed||0)+(!sleepPauses(p)&&p.stageStarted?n-p.stageStarted:0)}
 function renderHome(){$('partnerCount').textContent=db.length+' PARTNER'+(db.length===1?'':'S');$('partners').innerHTML=db.length?db.map(p=>`<div class="item partner-card"><div class="partner-info"><b>${esc(p.nickname||p.mon)}</b><div class="small">${esc(p.mon)} · ${esc(p.stage)}</div><div class="small">${esc(p.device)} · 총 ${fmt(totalElapsedMs(p))}</div></div><button class="primary partner-open" data-id="${p.id}">열기</button></div>`).join(''):'<p class="small">아직 등록된 파트너가 없습니다. 첫 번째 디지몬과 함께 육성을 시작해 보세요.</p>';$('partners').querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>open(b.dataset.id))}
-function codexGroupForDevice(device){if(device==='Ver.20th A'||device==='Ver.20th B')return 'Ver.20th A/B 기준';if(device==='Ver.20th C')return 'Ver.20th C';if(device==='Ver.20th D')return 'Ver.20th D';if(device==='Ver.20th E')return 'Ver.20th E';if(device==='Digimon X XC')return 'Digimon X XC';if(device==='Digimon X XA'||device==='Digimon X XB')return 'Digimon X XA/XB';if(device==='Godzilla Color')return 'Godzilla Color';return null}
+function codexGroupForDevice(device){if(device==='Ver.20th A'||device==='Ver.20th B')return 'Ver.20th A/B 기준';if(device==='Ver.20th C')return 'Ver.20th C';if(device==='Ver.20th D')return 'Ver.20th D';if(device==='Ver.20th E')return 'Ver.20th E';if(device==='Digimon X XC')return 'Digimon X XC';if(device==='Digimon X XA/XB')return 'Digimon X XA/XB';if(device==='Godzilla Color')return 'Godzilla Color';return null}
 function codexName(value){return value==='GODZILLA (1998)'?'Zilla':String(value||'')}
-function codexIsCollected(entry,groupFilter){const groups=groupFilter?[groupFilter]:(entry.devices||[]);return db.some(p=>{if(!groups.includes(codexGroupForDevice(p.device)))return false;const names=[p.mon,...(Array.isArray(p.history)?p.history.map(h=>h.mon):[])].map(codexName);return names.includes(entry.name)})}
+function codexIsCollected(entry,deviceName){const group=codexGroupForDevice(deviceName);const groups=group?[group]:(entry.devices||[]);return db.some(p=>{if(!groups.includes(codexGroupForDevice(p.device)))return false;const names=[p.mon,...(Array.isArray(p.history)?p.history.map(h=>h.mon):[])].map(codexName);return names.includes(entry.name)})}
+function codexEntryForDevice(entry,deviceName){
+ const group=codexGroupForDevice(deviceName);
+ if(!group||!(entry.devices||[]).includes(group))return false;
+ if(deviceName==='Ver.20th A'&&["Yamato's Gabumon","Yamato's Garurumon","Yamato's Were Garurumon"].includes(entry.name))return false;
+ if(deviceName==='Ver.20th B'&&["Taichi's Agumon","Taichi's Greymon","Taichi's Metal Greymon"].includes(entry.name))return false;
+ return true;
+}
 async function renderCodex(){
  const grid=$('codexGrid');
  if(!codexCatalog){
@@ -500,28 +507,42 @@ async function renderCodex(){
   try{const response=await fetch('./data/digimon-codex.json',{cache:'no-cache'});if(!response.ok)throw new Error('HTTP '+response.status);codexCatalog=await response.json()}
   catch(error){grid.innerHTML='<div class="note">도감 데이터를 불러오지 못했습니다. 잠시 후 다시 열어 주세요.</div>';return}
  }
- const group=$('codexDeviceFilter').value,status=$('codexCollectionFilter').value,stageFilter=$('codexStageFilter').value,query=$('codexSearch').value.trim().toLowerCase();
- const base=codexCatalog.entries.filter(entry=>(!group||(entry.devices||[]).includes(group))&&(!stageFilter||(stageFilter==='__unknown'?!entry.stage:entry.stage===stageFilter)));
- const collectedCount=base.filter(entry=>codexIsCollected(entry,group)).length;
- const imageCount=base.filter(entry=>entry.sprite&&entry.sprite.url).length;
- $('codexProgress').textContent=collectedCount+' / '+base.length+' 기록';
- $('codexSummary').textContent=base.length+'종 · 도트 이미지 '+imageCount+'종 · 이미지 미확보 '+(base.length-imageCount)+'종';
- const filtered=base.filter(entry=>{
-  const seen=codexIsCollected(entry,group);
-  if(status==='collected'&&!seen)return false;
-  if(status==='uncollected'&&seen)return false;
-  return !query||entry.name.toLowerCase().includes(query);
- });
- grid.innerHTML=filtered.length?filtered.map(entry=>{
-  const seen=codexIsCollected(entry,group),sprite=entry.sprite&&String(entry.sprite.url).startsWith('https://tero0x.github.io/dmc-sprites/images/')?entry.sprite:null;
-  const art=sprite?'<img data-codex-image src="'+esc(sprite.url)+'" alt="'+esc(entry.name)+' 도트 이미지" loading="lazy" decoding="async"><div class="codex-placeholder hidden"><span class="codex-glyph">◇</span><span>DIGITAL ARCHIVE</span><small>SPRITE DATA</small></div>':'<div class="codex-placeholder"><span class="codex-glyph">◇</span><span>DIGITAL ARCHIVE</span><small>SPRITE DATA PENDING</small></div>';
-  const stage=entry.stage?esc(entry.stage):'단계 정보 미확인';
-  const credits=sprite?esc(sprite.author)+' · '+esc(sprite.source):'이미지 자료 미확보';
-  return '<article class="codex-card"><div class="codex-art">'+art+'<span class="codex-state '+(seen?'collected':'')+'">'+(seen?'기록됨':'미발견')+'</span></div><div class="codex-meta"><b>'+esc(entry.name)+'</b><div class="small">'+stage+'</div><div class="codex-credit">'+credits+'</div></div></article>';
- }).join(''):'<div class="small">검색 결과가 없습니다.</div>';
+ const selectedDevice=$('codexDeviceFilter').value,status=$('codexCollectionFilter').value,stageFilter=$('codexStageFilter').value,query=$('codexSearch').value.trim().toLowerCase();
+ const devices=['Ver.20th A','Ver.20th B','Ver.20th C','Ver.20th D','Ver.20th E','Digimon X XA/XB','Digimon X XC','Godzilla Color'];
+ const stages=['유년기 I','유년기 II','성장기','성숙기','완전체','궁극체','초궁극체','하이브리드체','단계 미확인'];
+ const activeDevices=selectedDevice?[selectedDevice]:devices;
+ const sections=[];
+ let total=0,collectedCount=0,imageCount=0;
+ for(const deviceName of activeDevices){
+  const entries=codexCatalog.entries.filter(entry=>codexEntryForDevice(entry,deviceName));
+  const filtered=entries.filter(entry=>{
+   if(stageFilter&&!(stageFilter==='__unknown'?!entry.stage:entry.stage===stageFilter))return false;
+   const seen=codexIsCollected(entry,deviceName);
+   if(status==='collected'&&!seen)return false;
+   if(status==='uncollected'&&seen)return false;
+   return !query||entry.name.toLowerCase().includes(query);
+  });
+  if(!filtered.length)continue;
+  total+=filtered.length;
+  collectedCount+=filtered.filter(entry=>codexIsCollected(entry,deviceName)).length;
+  imageCount+=filtered.filter(entry=>entry.sprite&&entry.sprite.url).length;
+  const stageBlocks=stages.map(stage=>{
+   const list=filtered.filter(entry=>(entry.stage||'단계 미확인')===stage).sort((a,b)=>a.name.localeCompare(b.name,'en'));
+   if(!list.length)return '';
+   const cards=list.map(entry=>{
+    const seen=codexIsCollected(entry,deviceName),sprite=entry.sprite&&String(entry.sprite.url).startsWith('https://tero0x.github.io/dmc-sprites/images/')?entry.sprite:null;
+    const art=sprite?'<img data-codex-image referrerpolicy="no-referrer" src="'+esc(sprite.url)+'" alt="'+esc(entry.name)+' 도트 이미지" loading="lazy" decoding="async"><div class="codex-placeholder hidden"><span class="codex-glyph">◇</span><span>IMAGE UNAVAILABLE</span></div>':'<div class="codex-placeholder"><span class="codex-glyph">◇</span><span>IMAGE PENDING</span></div>';
+    return '<article class="codex-card"><div class="codex-art">'+art+'<span class="codex-state '+(seen?'collected':'')+'">'+(seen?'기록됨':'미발견')+'</span></div><div class="codex-meta"><b>'+esc(entry.name)+'</b><div class="small">'+esc(entry.stage||'단계 정보 미확인')+'</div></div></article>';
+   }).join('');
+   return '<section class="codex-stage-section"><h3 class="codex-stage-title">'+stage+' · '+list.length+'종</h3><div class="codex-grid">'+cards+'</div></section>';
+  }).join('');
+  sections.push('<section class="codex-device-section"><h2 class="codex-device-title">'+deviceName+' · '+filtered.length+'종</h2>'+stageBlocks+'</section>');
+ }
+ $('codexProgress').textContent=collectedCount+' / '+total+' 기록';
+ $('codexSummary').textContent=total+'종 · 도트 이미지 '+imageCount+'종 · 이미지 미확보 '+(total-imageCount)+'종';
+ grid.innerHTML=sections.length?sections.join(''):'<div class="small">검색 결과가 없습니다.</div>';
  grid.querySelectorAll('img[data-codex-image]').forEach(img=>img.addEventListener('error',()=>{img.classList.add('hidden');const fallback=img.nextElementSibling;if(fallback)fallback.classList.remove('hidden')}));
 }
-
 function renderSetup(){$('devices').innerHTML=devices.map(d=>`<button data-d="${d}" class="${device===d?'selected':''}">${d}</button>`).join('');$('devices').querySelectorAll('button').forEach(b=>b.onclick=()=>{device=b.dataset.d;if(device.startsWith('Ver.20th')&&!((device.endsWith(' A')&&egg==='Taichi Egg')||(device.endsWith(' B')&&egg==='Yamato Egg')||(device.endsWith(' C')&&egg==='Corona Egg')||(device.endsWith(' D')&&egg==='Luna Egg')||(device.endsWith(' E')&&egg==='Meicoo Egg'))&&['Taichi Egg','Yamato Egg','Corona Egg','Luna Egg','Meicoo Egg'].includes(egg))egg='Version 1 Egg';renderSetup()});let allowed=device.startsWith('Ver.20th')?eggs.filter(e=>{if(e==='Taichi Egg')return device.endsWith(' A');if(e==='Yamato Egg')return device.endsWith(' B');if(e==='Corona Egg')return device.endsWith(' C');if(e==='Luna Egg')return device.endsWith(' D');if(e==='Meicoo Egg')return device.endsWith(' E');if(e==='DORU Egg')return true;return true;}):['기본 알'];$('eggs').innerHTML=allowed.map(e=>`<button data-e="${e}" class="${egg===e?'selected':''}">${e}</button>`).join('');$('eggs').querySelectorAll('button').forEach(b=>b.onclick=()=>{egg=b.dataset.e;renderSetup()});const unlocks={'Version 2 Egg':'성장기(Child)로 진화하면 해금','Version 3 Egg':'성장기(Child)로 진화하면 해금','Version 4 Egg':'성장기(Child)로 진화하면 해금','Version 5 Egg':'성장기(Child)로 진화하면 해금','Zuba Egg':'Humulos 기준 누적 승리 50회 (반다이 공식 안내와 상충: 공식은 100회로 안내)','Hack Egg':'Humulos 기준 누적 승리 100회 (반다이 공식 안내와 상충: 공식은 50회로 안내)','Slayerdra Egg':'서로 다른 디지몬 5종 육성','Breakdra Egg':'서로 다른 디지몬 25종 육성','Corona Egg':'Ver.20th 서로 다른 기기 5대 연결 · Version C 전용','Luna Egg':'Ver.20th 서로 다른 기기 5대 연결 · Version D','Taichi Egg':'Ver.20th 서로 다른 기기 5대 연결 · Version A 전용','Yamato Egg':'Ver.20th 서로 다른 기기 5대 연결 · Version B 전용','DORU Egg':'A/B와 C/D/E 버전 간 연결','Meicoo Egg':'Ver.20th 서로 다른 기기 5대 연결 · Version E'};$('eggNote').textContent=device.startsWith('Ver.20th')?`${egg} · ${unlocks[egg]||'기본 해금'} · 현재 기기 버전에 실제로 탑재된 알만 선택하세요. C/D/E 전용 알은 해당 버전에서만 표시됩니다.`:device==='Digimon X XA'||device==='Digimon X XB'?(device+' · Humulos DMX Ver.1 기준: 기본 해금은 30종 중 14종. 퀘스트 Area 클리어로 추가 개방됩니다. Area SP는 XA↔XB 연결로 해금. XA는 Minervamon X, XB는 Lord Knightmon X 특수 랜덤 인카운터 조건도 확인하세요.'):device==='Digimon X XC'?'Digimon X XC · Humulos DMX Ver.2 기준: 기본 해금은 44종 중 18종. 퀘스트 Area 클리어로 추가 개방되며, Area SP는 XC↔XD 연결, 누적 승리 200회, Demon X 특수 랜덤 인카운터 조건도 확인하세요.':'Godzilla Color · Humulos 기준: G-Cell, 케어 실수, G-Cell Fragment, Area 7 진행 여부가 진화 분기에 관여합니다. Stage V·VI 진화는 현재 단계 배틀 15회 이상이 필요합니다. 전체 누적 승률 40% 미만은 진화 불가, 40~59%는 25%, 60~79%는 50%, 80% 이상은 100% 확률입니다. G-Cell은 수동 기록합니다.'}
 function setup(){device='Ver.20th A';egg=eggs[0];$('nickname').value='';renderSetup();page('setup')}
 function prepare(){draft={id:Date.now().toString(36)+Math.random().toString(36).slice(2),device,egg,nickname:$('nickname').value.trim()};$('summary').textContent=device+' · '+egg;let n=new Date();$('startDeviceClock').value=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');page('readyPage')}
