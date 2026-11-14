@@ -18,6 +18,18 @@
       "url": "https://humulos.com/digimon/dm20/list/",
       "verifiedAt": "2026-11-14",
       "note": "Humulos 표의 Level I~VI+를 유년기 I~초궁극체로 대응."
+    },
+    "dmxStage": {
+      "name": "Humulos Digital Monster X Digimon List",
+      "url": "https://humulos.com/digimon/dmx/list/",
+      "verifiedAt": "2026-11-14",
+      "note": "XA/XB 및 XC/XD 표의 Stage I~VI+를 앱의 한국어 단계명으로 대응."
+    },
+    "godzillaStage": {
+      "name": "Humulos Digital Monster Color Godzilla 70th Edition Monster List",
+      "url": "https://humulos.com/digimon/dmgz/list/",
+      "verifiedAt": "2026-11-14",
+      "note": "Godzilla Color 34종의 Stage I~VI+를 앱의 한국어 단계명으로 대응."
     }
   },
   "groups": [
@@ -97,7 +109,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -105,7 +117,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -133,7 +145,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -161,7 +173,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -223,7 +235,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -299,7 +311,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -308,7 +320,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -316,7 +328,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -324,7 +336,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -351,7 +363,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -378,7 +390,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -436,7 +448,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -455,7 +467,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -463,7 +475,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -471,7 +483,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -479,7 +491,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -587,7 +599,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -660,7 +672,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -687,7 +699,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -695,7 +707,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -741,7 +753,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -890,7 +902,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -917,7 +929,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1080,7 +1092,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1142,7 +1154,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -1188,7 +1200,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1234,7 +1246,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1242,7 +1254,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1250,7 +1262,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1258,7 +1270,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1266,7 +1278,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1274,7 +1286,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -1291,7 +1303,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1338,7 +1350,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1404,7 +1416,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1432,7 +1444,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1440,7 +1452,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "유년기 I",
       "sprite": null
     },
     {
@@ -1459,7 +1471,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1467,7 +1479,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1476,7 +1488,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -1543,7 +1555,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1552,7 +1564,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1595,7 +1607,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1603,7 +1615,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1611,7 +1623,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1619,7 +1631,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1627,7 +1639,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1635,7 +1647,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1643,7 +1655,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1651,7 +1663,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1710,7 +1722,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1718,7 +1730,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -1726,7 +1738,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1734,7 +1746,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1761,7 +1773,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1769,7 +1781,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1820,7 +1832,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1839,7 +1851,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1847,7 +1859,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1855,7 +1867,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1863,7 +1875,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1893,7 +1905,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1901,7 +1913,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1982,7 +1994,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2001,7 +2013,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2059,7 +2071,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2083,7 +2095,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2111,7 +2123,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2141,7 +2153,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -2267,7 +2279,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2302,7 +2314,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2370,7 +2382,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2448,7 +2460,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -2456,7 +2468,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2464,7 +2476,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2472,7 +2484,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2529,7 +2541,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2645,7 +2657,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2664,7 +2676,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2683,7 +2695,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2710,7 +2722,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2718,7 +2730,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2727,7 +2739,7 @@
         "Digimon X XA/XB",
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2843,7 +2855,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "유년기 II",
       "sprite": null
     },
     {
@@ -2851,7 +2863,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2900,7 +2912,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2908,7 +2920,7 @@
       "devices": [
         "Digimon X XC"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2954,7 +2966,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2990,7 +3002,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2998,7 +3010,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -3006,7 +3018,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -3014,7 +3026,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -3111,7 +3123,7 @@
       "devices": [
         "Digimon X XA/XB"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -3165,7 +3177,7 @@
       "devices": [
         "Godzilla Color"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
