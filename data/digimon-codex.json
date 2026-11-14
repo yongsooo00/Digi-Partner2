@@ -10,7 +10,7 @@
   },
   "groups": [
     {
-      "label": "Ver.20th A–E",
+      "label": "Ver.20th A/B 기준",
       "count": 134
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Aegisdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "초궁극체",
       "sprite": {
@@ -48,7 +48,7 @@
     {
       "name": "Agumon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Godzilla Color"
       ],
       "stage": "성장기",
@@ -81,7 +81,7 @@
     {
       "name": "Airdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -106,7 +106,7 @@
     {
       "name": "Alphamon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Digimon X XA/XB"
       ],
       "stage": "궁극체",
@@ -131,7 +131,7 @@
     {
       "name": "Andromon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -147,7 +147,7 @@
     {
       "name": "Angemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -163,7 +163,7 @@
     {
       "name": "Apollomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -187,7 +187,7 @@
     {
       "name": "Babydmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -211,7 +211,7 @@
     {
       "name": "Bakemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -227,7 +227,7 @@
     {
       "name": "Bancho Mamemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -235,7 +235,7 @@
     {
       "name": "Bao Hackmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -276,7 +276,7 @@
     {
       "name": "Betamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -300,7 +300,7 @@
     {
       "name": "Birdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -324,7 +324,7 @@
     {
       "name": "Blitz Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -332,7 +332,7 @@
     {
       "name": "Botamon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Godzilla Color"
       ],
       "stage": "유년기 I",
@@ -349,7 +349,7 @@
     {
       "name": "Breakdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -373,7 +373,7 @@
     {
       "name": "Centalmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -429,7 +429,7 @@
     {
       "name": "Cockatrimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -437,7 +437,7 @@
     {
       "name": "Coelamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -453,7 +453,7 @@
     {
       "name": "Coredramon (Blue)",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -469,7 +469,7 @@
     {
       "name": "Coredramon (Green)",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -485,7 +485,7 @@
     {
       "name": "Coronamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -509,7 +509,7 @@
     {
       "name": "Cres Garurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -517,7 +517,7 @@
     {
       "name": "Crescemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -533,7 +533,7 @@
     {
       "name": "Cyclomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -557,7 +557,7 @@
     {
       "name": "Dark Tyranomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -573,7 +573,7 @@
     {
       "name": "Deltamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -605,7 +605,7 @@
     {
       "name": "Devidramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -621,7 +621,7 @@
     {
       "name": "Devimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -645,7 +645,7 @@
     {
       "name": "Dianamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -661,7 +661,7 @@
     {
       "name": "Digitamamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -677,7 +677,7 @@
     {
       "name": "Dodomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -693,7 +693,7 @@
     {
       "name": "Dorimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -709,7 +709,7 @@
     {
       "name": "DORUgamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -725,7 +725,7 @@
     {
       "name": "DORUguremon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -733,7 +733,7 @@
     {
       "name": "DORUmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -749,7 +749,7 @@
     {
       "name": "Dracomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -773,7 +773,7 @@
     {
       "name": "Drimogemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -797,7 +797,7 @@
     {
       "name": "Duramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -813,7 +813,7 @@
     {
       "name": "Durandamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -845,7 +845,7 @@
     {
       "name": "Elecmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -861,7 +861,7 @@
     {
       "name": "Etemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -877,7 +877,7 @@
     {
       "name": "Ex-Tyranomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -885,7 +885,7 @@
     {
       "name": "Examon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -918,7 +918,7 @@
     {
       "name": "Firamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -942,7 +942,7 @@
     {
       "name": "Flaremon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -958,7 +958,7 @@
     {
       "name": "Flymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -974,7 +974,7 @@
     {
       "name": "Gabumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -998,7 +998,7 @@
     {
       "name": "Garurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1014,7 +1014,7 @@
     {
       "name": "Gazimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1038,7 +1038,7 @@
     {
       "name": "Giromon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -1054,7 +1054,7 @@
     {
       "name": "Gizamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1118,7 +1118,7 @@
     {
       "name": "Grace Novamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1134,7 +1134,7 @@
     {
       "name": "Greymon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Godzilla Color"
       ],
       "stage": "성숙기",
@@ -1151,7 +1151,7 @@
     {
       "name": "Groundramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -1175,7 +1175,7 @@
     {
       "name": "Hackmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1200,7 +1200,7 @@
     {
       "name": "Hi Andromon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1208,7 +1208,7 @@
     {
       "name": "Jesmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -1232,7 +1232,7 @@
     {
       "name": "Kabuterimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1265,7 +1265,7 @@
     {
       "name": "King Etemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1298,7 +1298,7 @@
     {
       "name": "Koromon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Godzilla Color"
       ],
       "stage": "유년기 II",
@@ -1315,7 +1315,7 @@
     {
       "name": "Kunemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1331,7 +1331,7 @@
     {
       "name": "Kuwagamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1365,7 +1365,7 @@
     {
       "name": "Lekismon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1381,7 +1381,7 @@
     {
       "name": "Leomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1461,7 +1461,7 @@
     {
       "name": "Lunamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1477,7 +1477,7 @@
     {
       "name": "Mamemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -1541,7 +1541,7 @@
     {
       "name": "Megadramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -1573,7 +1573,7 @@
     {
       "name": "Meicoomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1589,7 +1589,7 @@
     {
       "name": "Meicrackmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1597,7 +1597,7 @@
     {
       "name": "Meramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1621,7 +1621,7 @@
     {
       "name": "Metal Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1661,7 +1661,7 @@
     {
       "name": "Metal Mamemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1669,7 +1669,7 @@
     {
       "name": "Metal Tyranomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1693,7 +1693,7 @@
     {
       "name": "Mojyamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1709,7 +1709,7 @@
     {
       "name": "Monochromon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1741,7 +1741,7 @@
     {
       "name": "Monzaemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -1765,7 +1765,7 @@
     {
       "name": "Mugendramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1781,7 +1781,7 @@
     {
       "name": "Nanimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1797,7 +1797,7 @@
     {
       "name": "Nanomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1805,7 +1805,7 @@
     {
       "name": "Numemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1830,7 +1830,7 @@
     {
       "name": "Nyaromon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -1854,7 +1854,7 @@
     {
       "name": "Ogremon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -1879,7 +1879,7 @@
     {
       "name": "Omegamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1887,7 +1887,7 @@
     {
       "name": "Omegamon Alter S",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1903,7 +1903,7 @@
     {
       "name": "Pagumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -1919,7 +1919,7 @@
     {
       "name": "Palmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1935,7 +1935,7 @@
     {
       "name": "Patamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -1951,7 +1951,7 @@
     {
       "name": "Petitmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -1967,7 +1967,7 @@
     {
       "name": "Piccolomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1975,7 +1975,7 @@
     {
       "name": "Pinochimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1983,7 +1983,7 @@
     {
       "name": "Pitchmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -1991,7 +1991,7 @@
     {
       "name": "Piyomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2007,7 +2007,7 @@
     {
       "name": "Plotmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2015,7 +2015,7 @@
     {
       "name": "Poyomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -2039,7 +2039,7 @@
     {
       "name": "Pukamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2047,7 +2047,7 @@
     {
       "name": "Punimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -2103,7 +2103,7 @@
     {
       "name": "Raremon",
       "devices": [
-        "Ver.20th A–E",
+        "Ver.20th A/B 기준",
         "Godzilla Color"
       ],
       "stage": "성숙기",
@@ -2154,7 +2154,7 @@
     {
       "name": "Rasielmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -2202,7 +2202,7 @@
     {
       "name": "Rust Tyranomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2210,7 +2210,7 @@
     {
       "name": "Sakumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -2226,7 +2226,7 @@
     {
       "name": "Sakuttomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -2266,7 +2266,7 @@
     {
       "name": "Savior Hackmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2274,7 +2274,7 @@
     {
       "name": "Scumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2282,7 +2282,7 @@
     {
       "name": "Seadramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2298,7 +2298,7 @@
     {
       "name": "Shellmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2354,7 +2354,7 @@
     {
       "name": "Skull Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2370,7 +2370,7 @@
     {
       "name": "Skull Mammon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2386,7 +2386,7 @@
     {
       "name": "Slayerdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -2427,7 +2427,7 @@
     {
       "name": "Taichi's Agumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2435,7 +2435,7 @@
     {
       "name": "Taichi's Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2443,7 +2443,7 @@
     {
       "name": "Taichi's Metal Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2451,7 +2451,7 @@
     {
       "name": "Taichi's War Greymon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2459,7 +2459,7 @@
     {
       "name": "Tanemon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -2475,7 +2475,7 @@
     {
       "name": "Titamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "궁극체",
       "sprite": {
@@ -2507,7 +2507,7 @@
     {
       "name": "Tokomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 II",
       "sprite": {
@@ -2539,7 +2539,7 @@
     {
       "name": "Tunomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2547,7 +2547,7 @@
     {
       "name": "Tuskmon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2563,7 +2563,7 @@
     {
       "name": "Tyranomon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2587,7 +2587,7 @@
     {
       "name": "Unimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2603,7 +2603,7 @@
     {
       "name": "Vademon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -2627,7 +2627,7 @@
     {
       "name": "Vegimon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2684,7 +2684,7 @@
     {
       "name": "Whamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2700,7 +2700,7 @@
     {
       "name": "Wingdramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "완전체",
       "sprite": {
@@ -2732,7 +2732,7 @@
     {
       "name": "Yamato's Gabumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2740,7 +2740,7 @@
     {
       "name": "Yamato's Garurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2748,7 +2748,7 @@
     {
       "name": "Yamato's Metal Garurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2756,7 +2756,7 @@
     {
       "name": "Yamato's Were Garurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2772,7 +2772,7 @@
     {
       "name": "Yukidarumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": null,
       "sprite": null
@@ -2780,7 +2780,7 @@
     {
       "name": "Yukimibotamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -2796,7 +2796,7 @@
     {
       "name": "Yuramon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
@@ -2820,7 +2820,7 @@
     {
       "name": "Zubaeagermon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성숙기",
       "sprite": {
@@ -2836,7 +2836,7 @@
     {
       "name": "Zubamon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "성장기",
       "sprite": {
@@ -2852,7 +2852,7 @@
     {
       "name": "Zurumon",
       "devices": [
-        "Ver.20th A–E"
+        "Ver.20th A/B 기준"
       ],
       "stage": "유년기 I",
       "sprite": {
