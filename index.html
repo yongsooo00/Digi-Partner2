@@ -81,9 +81,9 @@ button{transition:transform .15s ease,border-color .15s ease,filter .15s ease}bu
 <div class="actions"><button id="codexBack">← 홈으로</button></div>
 <div class="panel">
 <div class="section-head"><div><span class="eyebrow">DIGITAL ARCHIVE</span><h1>디지몬 도감</h1></div><span class="tag" id="codexProgress">0 / 246 기록</span></div>
-<p class="small">지원 기기의 디지몬을 미리 수록했습니다. 실제 육성 중 진화한 디지몬은 진화 이력을 바탕으로 자동 수집 처리됩니다. 별도로 등록할 필요가 없습니다.</p>
+<p class="small">지원 기기의 디지몬을 미리 수록했습니다. Ver.20th는 기존 A/B 기준 목록 134종을 먼저 반영했으며, C/D/E 전용 추가 종은 별도 확인 후 보완합니다. 육성 중 진화한 디지몬은 진화 이력으로 자동 수집 처리됩니다.</p>
 <div class="codex-controls">
-<select id="codexDeviceFilter"><option value="">모든 지원 기기</option><option value="Ver.20th A–E">Ver.20th A–E</option><option value="Digimon X XA/XB">Digimon X XA/XB</option><option value="Digimon X XC">Digimon X XC</option><option value="Godzilla Color">Godzilla Color</option></select>
+<select id="codexDeviceFilter"><option value="">모든 지원 기기</option><option value="Ver.20th A/B 기준">Ver.20th A/B 기준</option><option value="Digimon X XA/XB">Digimon X XA/XB</option><option value="Digimon X XC">Digimon X XC</option><option value="Godzilla Color">Godzilla Color</option></select>
 <select id="codexCollectionFilter"><option value="all">전체 디지몬</option><option value="collected">육성 기록 있음</option><option value="uncollected">아직 미발견</option></select>
 </div>
 <label for="codexSearch">디지몬 검색</label><input id="codexSearch" type="search" placeholder="영문 이름으로 검색">
@@ -489,7 +489,7 @@ function page(id){['home','codex','setup','readyPage','detail','settings'].forEa
 function fmt(ms){let s=Math.max(0,Math.floor(ms/1000)),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),z=s%60;return(d?d+'일 ':'')+[h,m,z].map(n=>String(n).padStart(2,'0')).join(':')}
 function pnow(){return db.find(p=>p.id===activeId)}function effectiveNow(p){return Date.now()}function sleepPauses(p){return p.sleeping&&deviceFamily(p)==='ver20'}function elapsed(p){let n=effectiveNow(p);return(p.stageElapsed||0)+(!sleepPauses(p)&&p.stageStarted?n-p.stageStarted:0)}
 function renderHome(){$('partnerCount').textContent=db.length+' PARTNER'+(db.length===1?'':'S');$('partners').innerHTML=db.length?db.map(p=>`<div class="item partner-card"><div class="partner-info"><b>${esc(p.nickname||p.mon)}</b><div class="small">${esc(p.mon)} · ${esc(p.stage)}</div><div class="small">${esc(p.device)} · 총 ${fmt(totalElapsedMs(p))}</div></div><button class="primary partner-open" data-id="${p.id}">열기</button></div>`).join(''):'<p class="small">아직 등록된 파트너가 없습니다. 첫 번째 디지몬과 함께 육성을 시작해 보세요.</p>';$('partners').querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>open(b.dataset.id))}
-function codexGroupForDevice(device){if(String(device).startsWith('Ver.20th'))return 'Ver.20th A–E';if(device==='Digimon X XC')return 'Digimon X XC';if(device==='Digimon X XA'||device==='Digimon X XB')return 'Digimon X XA/XB';if(device==='Godzilla Color')return 'Godzilla Color';return null}
+function codexGroupForDevice(device){if(String(device).startsWith('Ver.20th'))return 'Ver.20th A/B 기준';if(device==='Digimon X XC')return 'Digimon X XC';if(device==='Digimon X XA'||device==='Digimon X XB')return 'Digimon X XA/XB';if(device==='Godzilla Color')return 'Godzilla Color';return null}
 function codexName(value){return value==='GODZILLA (1998)'?'Zilla':String(value||'')}
 function codexIsCollected(entry,groupFilter){const groups=groupFilter?[groupFilter]:(entry.devices||[]);return db.some(p=>{if(!groups.includes(codexGroupForDevice(p.device)))return false;const names=[p.mon,...(Array.isArray(p.history)?p.history.map(h=>h.mon):[])].map(codexName);return names.includes(entry.name)})}
 async function renderCodex(){
