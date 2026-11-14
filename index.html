@@ -530,7 +530,7 @@ async function renderCodex(){
    const list=filtered.filter(entry=>(entry.stage||'단계 미확인')===stage).sort((a,b)=>a.name.localeCompare(b.name,'en'));
    if(!list.length)return '';
    const cards=list.map(entry=>{
-    const seen=codexIsCollected(entry,deviceName),sprite=entry.sprite&&String(entry.sprite.url).startsWith('https://tero0x.github.io/dmc-sprites/images/')?entry.sprite:null;
+    const seen=codexIsCollected(entry,deviceName),sprite=entry.sprite&&(String(entry.sprite.url).startsWith('https://raw.githubusercontent.com/tero0x/dmc-sprites/main/images/')||String(entry.sprite.url).startsWith('https://raw.githubusercontent.com/kongtaehun/digimon-assets-VB/main/assets/data/'))?entry.sprite:null;
     const art=sprite?'<img data-codex-image referrerpolicy="no-referrer" src="'+esc(sprite.url)+'" alt="'+esc(entry.name)+' 도트 이미지" loading="lazy" decoding="async"><div class="codex-placeholder hidden"><span class="codex-glyph">◇</span><span>IMAGE UNAVAILABLE</span></div>':'<div class="codex-placeholder"><span class="codex-glyph">◇</span><span>IMAGE PENDING</span></div>';
     return '<article class="codex-card"><div class="codex-art">'+art+'<span class="codex-state '+(seen?'collected':'')+'">'+(seen?'기록됨':'미발견')+'</span></div><div class="codex-meta"><b>'+esc(entry.name)+'</b><div class="small">'+esc(entry.stage||'단계 정보 미확인')+'</div></div></article>';
    }).join('');
