@@ -114,7 +114,7 @@ function mergeServerManagedState(incoming, storedJson) {
       incoming.sleepStartedAt === previous.lastAutoWakeSleepStartedAt &&
       previous.sleeping === false) {
     for (const key of ['sleeping', 'sleepStartedAt', 'sleepWakeAtAbs',
-      'stageElapsed', 'stageStarted', 'totalElapsed', 'totalStarted', 'gaugeUpdatedAt', 'hungerGaugeUpdatedAt', 'strengthGaugeUpdatedAt']) {
+      'stageElapsed', 'stageStarted', 'totalElapsed', 'totalStarted', 'gaugeUpdatedAt', 'hungerGaugeUpdatedAt', 'strengthGaugeUpdatedAt', 'hungerDecayAt', 'strengthDecayAt']) {
       next[key] = previous[key] ?? (key === 'sleeping' ? false : null);
     }
     next.lastAutoWakeSleepStartedAt = previous.lastAutoWakeSleepStartedAt;
@@ -211,12 +211,14 @@ async function checkPartner(env, row, now) {
   const settings = p.notifications || {};
   let changed = false;
 
-  if (p.sleeping && family === 'ver20') {
+  if (p.sleeping) {
     if (p.sleepWakeAtAbs == null) { p.sleepWakeAtAbs = nextWakeAbs(p, now); changed = true; }
     if (deviceClockAbs(p, now) >= p.sleepWakeAtAbs) {
       p.lastAutoWakeSleepStartedAt = p.sleepStartedAt ?? null;
       p.sleeping = false; p.sleepStartedAt = null; p.sleepWakeAtAbs = null;
-      p.stageStarted = now; p.totalStarted = now; p.gaugeUpdatedAt = now;
+      p.gaugeUpdatedAt = now; p.hungerGaugeUpdatedAt = now; p.strengthGaugeUpdatedAt = now;
+      p.hungerDecayAt = now; p.strengthDecayAt = now;
+      if (family === 'ver20') { p.stageStarted = now; p.totalStarted = now; }
       changed = true;
       if (settings.enabled !== false) await notifyOnce(env, row.device_id, `${row.partner_id}:${stageKey(p)}:auto-wake`, now, {
         title: '자동 기상', body: `${p.nickname || p.mon || '디지몬'}의 설정된 기상 시각이 되어 활동을 재개했습니다.`,
@@ -243,7 +245,7 @@ async function checkPartner(env, row, now) {
   }
 
   const mode = settings.gauge || 'both';
-  for (const gauge of ['hunger', 'strength']) {
+  if (!p.sleeping) for (const gauge of ['hunger', 'strength']) {
     if (family === 'dmx') {
       const unitsKey = `${gauge}Units`, stampKey = `${gauge}DecayAt`;
       let units = Number(settings[unitsKey]);
