@@ -482,7 +482,7 @@ function durationMs(p,stage=p.stage){const f=deviceFamily(p);const mins={
  dmx:{'알':1,'유년기 I':10,'유년기 II':720,'성장기':1440,'성숙기':1920,'완전체':2400,'궁극체':2880},
  color:{'알':8/60,'유년기 I':10,'유년기 II':720,'성장기':1440,'성숙기':2160,'완전체':2880,'궁극체':2880}
 };return (mins[f][stage]||0)*60000}
-let db=read(),device='Ver.20th A',egg=eggs[0],draft=null,activeId=null,interval=null;
+let codexCatalog=null,db=read(),device='Ver.20th A',egg=eggs[0],draft=null,activeId=null,interval=null;
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}}function save(){localStorage.setItem(KEY,JSON.stringify(db));syncPartnerState(false)}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function page(id){['home','codex','setup','readyPage','detail','settings'].forEach(x=>$(x).classList.toggle('hidden',x!==id))}
