@@ -7,7 +7,7 @@ const STAGE_MINUTES = {
   dmx: { '알': 1, '유년기 I': 10, '유년기 II': 720, '성장기': 1440, '성숙기': 1920, '완전체': 2400, '궁극체': 2880 },
   color: { '알': 8 / 60, '유년기 I': 10, '유년기 II': 720, '성장기': 1440, '성숙기': 2160, '완전체': 2880, '궁극체': 2880 }
 };
-const DMX_DECAY = { hunger: 30 * 60 * 1000, strength: 3 * 60 * 60 * 1000 };
+const DMX_DECAY = { hunger: 30 * 60 * 1000, strength: 30 * 60 * 1000 };
 const UNIVERSAL_HUNGER_DECAY = 30 * 60 * 1000;
 const VER20_GAUGE_CYCLE = 30 * 60 * 1000;
 const NIGHT_REMINDER_INTERVAL = 5 * 60 * 1000;
@@ -250,7 +250,7 @@ async function checkPartner(env, row, now) {
       if (!Number.isFinite(units)) units = dmxHeartCapacity(p.stage) * 2;
       const stamp = Number.isFinite(p[stampKey]) ? p[stampKey] : now;
       const elapsedCycles = Math.floor(Math.max(0, now - stamp) / DMX_DECAY[gauge]);
-      const drops = units > 0 ? Math.min(units, elapsedCycles * (gauge === 'hunger' ? 2 : 1)) : 0;
+      const drops = units > 0 ? Math.min(units, elapsedCycles * 2) : 0;
       if (drops > 0) {
         const before = units / 2;
         units = Math.max(0, units - drops);
@@ -267,7 +267,7 @@ async function checkPartner(env, row, now) {
           });
         }
       }
-    } else if (gauge === 'hunger' || (family === 'ver20' && !p.sleeping)) {
+    } else if (gauge === 'hunger' || !p.sleeping) {
       const stampKey = gauge + 'GaugeUpdatedAt';
       const stamp = Number.isFinite(p[stampKey])
         ? p[stampKey]
