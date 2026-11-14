@@ -12,6 +12,12 @@
       "url": "https://humulos.com/digimon/dm20/exclusives/",
       "verifiedAt": "2026-11-14",
       "note": "A/B 및 C/D/E 전용 진화 계열과 C/D 공통 종을 기기별로 분류. A/B 전용 Taichi/Yamato 계열 6종은 C/D/E에 포함하지 않음."
+    },
+    "ver20thStage": {
+      "name": "Humulos Digimon Original (Ver.20th) Digimon List",
+      "url": "https://humulos.com/digimon/dm20/list/",
+      "verifiedAt": "2026-11-14",
+      "note": "Humulos 표의 Level I~VI+를 유년기 I~초궁극체로 대응."
     }
   },
   "groups": [
@@ -228,7 +234,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "유년기 II",
       "sprite": null
     },
     {
@@ -274,7 +280,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -285,7 +291,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -383,7 +389,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -441,7 +447,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -500,7 +506,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -592,7 +598,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -619,7 +625,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -646,7 +652,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -838,7 +844,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1014,7 +1020,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1277,7 +1283,7 @@
         "Ver.20th C",
         "Ver.20th D"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -1343,7 +1349,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -1371,7 +1377,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1445,7 +1451,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -1787,7 +1793,7 @@
       "devices": [
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1825,7 +1831,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1868,7 +1874,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1879,7 +1885,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -1987,7 +1993,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2025,7 +2031,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2116,7 +2122,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -2127,7 +2133,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -2222,7 +2228,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2233,7 +2239,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2242,7 +2248,7 @@
         "Ver.20th C",
         "Ver.20th D"
       ],
-      "stage": null,
+      "stage": "유년기 I",
       "sprite": null
     },
     {
@@ -2253,7 +2259,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -2269,7 +2275,7 @@
       "devices": [
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -2305,7 +2311,7 @@
         "Ver.20th C",
         "Ver.20th D"
       ],
-      "stage": null,
+      "stage": "유년기 II",
       "sprite": null
     },
     {
@@ -2477,7 +2483,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "초궁극체",
       "sprite": null
     },
     {
@@ -2550,7 +2556,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2561,7 +2567,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2650,7 +2656,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2669,7 +2675,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2729,7 +2735,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -2737,7 +2743,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2745,7 +2751,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -2756,7 +2762,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -2856,7 +2862,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "유년기 II",
       "sprite": null
     },
     {
@@ -2886,7 +2892,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -2959,7 +2965,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -3070,7 +3076,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "성장기",
       "sprite": null
     },
     {
@@ -3078,7 +3084,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
@@ -3089,7 +3095,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "궁극체",
       "sprite": null
     },
     {
@@ -3097,7 +3103,7 @@
       "devices": [
         "Ver.20th A/B 기준"
       ],
-      "stage": null,
+      "stage": "완전체",
       "sprite": null
     },
     {
@@ -3116,7 +3122,7 @@
         "Ver.20th D",
         "Ver.20th E"
       ],
-      "stage": null,
+      "stage": "성숙기",
       "sprite": null
     },
     {
