@@ -1,0 +1,2869 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14",
+  "source": {
+    "name": "Digimon / Pendulum Color Mod Sprite Database",
+    "catalogUrl": "https://dmc-sprite-database.vercel.app/",
+    "dataRepository": "https://github.com/tero0x/dmc-sprites",
+    "dataFile": "sprites.json",
+    "note": "이미지 파일은 복제·재호스팅하지 않고 원본 URL을 참조합니다. 각 카드에 등록된 제작자와 출처를 표시합니다. 원본 저장소에는 별도 LICENSE 파일이 확인되지 않아 공개 재배포 권한을 보증하지 않습니다."
+  },
+  "groups": [
+    {
+      "label": "Ver.20th A/B 기준",
+      "count": 134
+    },
+    {
+      "label": "Digimon X XA/XB",
+      "count": 57
+    },
+    {
+      "label": "Digimon X XC",
+      "count": 41
+    },
+    {
+      "label": "Godzilla Color",
+      "count": 34
+    }
+  ],
+  "totalUnique": 246,
+  "matchedUnique": 106,
+  "entries": [
+    {
+      "name": "Aegisdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "초궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v2/564.png",
+        "author": "Bandai",
+        "source": "Pendulum Color 2 Deep Savers",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Agumon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Godzilla Color"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/240.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Agumon (Black) X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Agumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Airdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/330.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Allomon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Alphamon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Digimon X XA/XB"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Alphamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Ancient Sphinxmon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Andromon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/375.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Angemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/316.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Apollomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Apollomon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Baby Godzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Babydmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Bagramon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Ultimate-Super Ultimate/Bagramon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Bakemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/315.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Bancho Mamemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Bao Hackmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Barbamon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Beel Starmon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Beelzebumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Belial Vamdemon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Betamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/255.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Biollante",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Birdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/346.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Black War Greymon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Blitz Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Botamon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Godzilla Color"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/210.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Breakdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Breakdramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Burning Godzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Centalmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Cerberumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Chaosdramon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Chibi Godzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Chibi Mechagodzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Cho-Hakkaimon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/ChoHakkaimon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Cockatrimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Coelamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/346.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Coredramon (Blue)",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coredramon(Blue)/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Coredramon (Green)",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coredramon(Green)/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Coronamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Coronamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Craniummon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Cres Garurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Crescemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Crescemon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Cyclomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Damemon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Damemon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dark Tyranomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Dark Tyranomon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Deltamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/377.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Demon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Destoroyah",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Devidramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/332.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Devimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/300.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Diablomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Dianamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Dianamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Digitamamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/421.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dodomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/decoga/Dodomon/a_dodomon_idle_1.png",
+        "author": "decoga",
+        "source": "Digimon Unlimited",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dorimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/decoga/Dorimon/a_dorimon_idle_1.png",
+        "author": "decoga",
+        "source": "Digimon Unlimited",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "DORUgamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/DORUgamon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "DORUguremon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "DORUmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/DORUmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dracomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Dracomon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dracomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Drimogemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/345.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Dukemon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Duramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Duramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Durandamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Durandamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Duskmon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": "하이브리드체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Armor-Hybrid/Duskmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Elecmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/271.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Etemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/405.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Ex-Tyranomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Examon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Examon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Filmon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Filmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Firamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Firamon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Fire Rodan",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Flaremon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Flaremon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Flymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/362.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Gabumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/256.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Gabumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Garurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/301.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Gazimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/272.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Gigan",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Giromon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/390.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Gizamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/287.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Godzilla (1954)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Godzilla (1994)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Godzilla (1999)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Godzilla Jr",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Godzillasaurus",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Gomamon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Grace Novamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Grandis Kuwagamon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Greymon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Godzilla Color"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/270.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Groundramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Groundramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Growmon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Hackmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Herissmon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Herissmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Hi Andromon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Jesmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Jesmon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Jesmon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Kabuterimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/286.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Kaiser Leomon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Kiimon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "King Etemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "King Ghidorah (1991)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Kiryu",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Kokuwamon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Koromon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Godzilla Color"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/225.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Kunemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/255.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Kuwagamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/331.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Kuwagamon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lady Devimon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lekismon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Lekismon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Leomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/316.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Leomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Leviamon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lilimon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lilithmon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Little Godzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lord Knightmon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lucemon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lucemon: Falldown Mode",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Lunamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Lunamon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Mamemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/390.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Mametyramon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Perfect/Mametyramon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Mammon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mantaraymon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mecha-King Ghidorah",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mechagodzilla (1993)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Megadramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/391.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Megalo Growmon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Megidramon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Meicoomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Meicoomon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Meicrackmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Meramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/315.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Metal Garurumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Greymon (Vaccine)",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Greymon (Virus) X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Greymon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Greymon: G-Erosion Mode",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Mamemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Tyranomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Metal Tyranomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Minervamon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mojyamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/361.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Monochromon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/286.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Monodramon",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Monodramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Monzaemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/405.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Mothra",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mugendramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Mugendramon: MFS-3 Kai",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Nanimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/376.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Nanomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Numemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/360.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Numemon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Nyaromon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v0/252.png",
+        "author": "Bandai",
+        "source": "Pendulum Color 0 Virus Busters",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Ofanimon: Falldown Mode X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Ogremon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/300.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Okuwamon X",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Omegamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Omegamon Alter S",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Omegamon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Pagumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/257.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Palmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/271.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Patamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/240.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Petitmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby I/Petitmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Piccolomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Pinochimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Pitchmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Piyomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Platinum Numemon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Plotmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Poyomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/210.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Prince Mamemon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Pukamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Punimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/226.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Puttimon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby I/Puttimon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Rafflesimon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v4/528.png",
+        "author": "Bandai",
+        "source": "Pendulum Color 4 Wind Guardians",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Raihimon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Raremon",
+      "devices": [
+        "Ver.20th A/B 기준",
+        "Godzilla Color"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/392.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Rasenmon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasenmon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Rasenmon: Fury Mode",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasenmon FM/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Rasielmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Rasielmon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Renamon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Rhinomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Rodan",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Rosemon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Rust Tyranomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Sakumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Sakumon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Sakuttomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/sakuttomon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Sakuyamon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Sangloupmon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Sangloupmon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Savior Hackmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Scumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Seadramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v1/345.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 1",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Shellmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/330.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Sistermon Blanc",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Child/Sistermon_Blanc-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Sistermon Ciel",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/ilabb/sistermon_ciel/a_ciel*ilabb_idle_1.png",
+        "author": "ilabb",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Skull Baluchimon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Skull Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Skull Greymon: G-Erosion Mode",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Skull Mammon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Skull Mammon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Slayerdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Slayerdramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Sleipmon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Space Godzilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Stiffilmon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Taichi's Agumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Taichi's Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Taichi's Metal Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Taichi's War Greymon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Tanemon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/241.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Titamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "궁극체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Titamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Tobucatmon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Adult/Tobucatmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Tokomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/225.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Tokomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Triceramon X",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Tunomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Tuskmon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/347.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Tyranomon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Tyranomon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Ultimate Brachiomon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Unimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v3/270.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 3",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Vademon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/421.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Valdurmon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Vegimon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Velgrmon",
+      "devices": [
+        "Digimon X XA/XB",
+        "Digimon X XC"
+      ],
+      "stage": "하이브리드체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Armor-Hybrid/Velgrmon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "War Greymon",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "War Greymon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "War Greymon: G-Erosion Mode",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Were Garurumon X",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Whamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v2/361.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 2",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Wingdramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "완전체",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Wingdramon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Yaamon",
+      "devices": [
+        "Digimon X XC"
+      ],
+      "stage": "유년기 II",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/tortoisehel/Baby II/Yaamon-1.png",
+        "author": "tortoisehel",
+        "source": "출처 미기재",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Yamato's Gabumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yamato's Garurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yamato's Metal Garurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yamato's Were Garurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yatagaramon",
+      "devices": [
+        "Digimon X XA/XB"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yukidarumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Yukimibotamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/penc/v0/240.png",
+        "author": "Bandai",
+        "source": "Pendulum Color 0 Virus Busters",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Yuramon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v4/226.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 4",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Zilla",
+      "devices": [
+        "Godzilla Color"
+      ],
+      "stage": null,
+      "sprite": null
+    },
+    {
+      "name": "Zubaeagermon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성숙기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Zubaeagermon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Zubamon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "성장기",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/dmul/Zubamon/01_idle1.png",
+        "author": "Unknown",
+        "source": "DMUL",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 12,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    },
+    {
+      "name": "Zurumon",
+      "devices": [
+        "Ver.20th A/B 기준"
+      ],
+      "stage": "유년기 I",
+      "sprite": {
+        "url": "https://tero0x.github.io/dmc-sprites/images/original/dmc/v5/242.png",
+        "author": "Bandai",
+        "source": "Digimon Color Ver. 5",
+        "size": "48x48",
+        "style": "Dot",
+        "frameCount": 15,
+        "catalogUrl": "https://dmc-sprite-database.vercel.app/"
+      }
+    }
+  ]
+}
