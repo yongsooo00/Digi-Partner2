@@ -21,15 +21,15 @@
     },
     {
       "label": "Ver.20th C",
-      "count": 128
+      "count": 118
     },
     {
       "label": "Ver.20th D",
-      "count": 128
+      "count": 118
     },
     {
       "label": "Ver.20th E",
-      "count": 128
+      "count": 121
     },
     {
       "label": "Digimon X XA/XB",
@@ -200,8 +200,6 @@
       "name": "Apollomon",
       "devices": [
         "Ver.20th C",
-        "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C"
       ],
       "stage": "궁극체",
@@ -567,8 +565,6 @@
       "name": "Coronamon",
       "devices": [
         "Ver.20th C",
-        "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C"
       ],
       "stage": "성장기",
@@ -604,7 +600,6 @@
     {
       "name": "Crescemon",
       "devices": [
-        "Ver.20th C",
         "Ver.20th D",
         "Ver.20th E",
         "Ver.20th D"
@@ -750,7 +745,6 @@
     {
       "name": "Dianamon",
       "devices": [
-        "Ver.20th C",
         "Ver.20th D",
         "Ver.20th E",
         "Ver.20th D"
@@ -1069,8 +1063,6 @@
       "name": "Firamon",
       "devices": [
         "Ver.20th C",
-        "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C"
       ],
       "stage": "성숙기",
@@ -1096,8 +1088,6 @@
       "name": "Flaremon",
       "devices": [
         "Ver.20th C",
-        "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C"
       ],
       "stage": "완전체",
@@ -1294,7 +1284,6 @@
       "devices": [
         "Ver.20th C",
         "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C",
         "Ver.20th D"
       ],
@@ -1573,7 +1562,6 @@
     {
       "name": "Lekismon",
       "devices": [
-        "Ver.20th C",
         "Ver.20th D",
         "Ver.20th E",
         "Ver.20th D"
@@ -1675,7 +1663,6 @@
     {
       "name": "Lunamon",
       "devices": [
-        "Ver.20th C",
         "Ver.20th D",
         "Ver.20th E",
         "Ver.20th D"
@@ -1796,8 +1783,6 @@
     {
       "name": "Meicoomon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
@@ -1815,8 +1800,6 @@
     {
       "name": "Meicrackmon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
@@ -2092,8 +2075,6 @@
     {
       "name": "Nyaromon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
@@ -2277,7 +2258,6 @@
       "devices": [
         "Ver.20th C",
         "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C",
         "Ver.20th D"
       ],
@@ -2306,8 +2286,6 @@
     {
       "name": "Plotmon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
@@ -2346,7 +2324,6 @@
       "devices": [
         "Ver.20th C",
         "Ver.20th D",
-        "Ver.20th E",
         "Ver.20th C",
         "Ver.20th D"
       ],
@@ -2469,8 +2446,6 @@
     {
       "name": "Rasielmon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
@@ -3170,8 +3145,6 @@
     {
       "name": "Yukimibotamon",
       "devices": [
-        "Ver.20th C",
-        "Ver.20th D",
         "Ver.20th E",
         "Ver.20th E"
       ],
