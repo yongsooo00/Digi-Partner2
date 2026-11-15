@@ -284,6 +284,14 @@ async function checkPartner(env, row, now) {
   }
 
   const mode = settings.gauge || 'both';
+  if (p.sleeping) {
+    console.info('[diagnostic] gauge decay paused: sleeping', {
+      partnerId: row.partner_id, device: p.device, mon: p.mon,
+      hunger: settings.hunger, strength: settings.strength,
+      hungerGaugeUpdatedAt: p.hungerGaugeUpdatedAt,
+      strengthGaugeUpdatedAt: p.strengthGaugeUpdatedAt
+    });
+  }
   if (!p.sleeping) for (const gauge of ['hunger', 'strength']) {
     if (family === 'dmx') {
       const unitsKey = `${gauge}Units`, stampKey = `${gauge}DecayAt`;
@@ -313,10 +321,20 @@ async function checkPartner(env, row, now) {
       const stamp = Number.isFinite(p[stampKey])
         ? p[stampKey]
         : (Number.isFinite(p.gaugeUpdatedAt) ? p.gaugeUpdatedAt : now);
-      const drops = Math.floor(Math.max(0, now - stamp) / VER20_GAUGE_CYCLE);
+      const elapsedMs = Math.max(0, now - stamp);
+      const drops = Math.floor(elapsedMs / VER20_GAUGE_CYCLE);
+      const beforeValue = Number(settings[gauge] ?? 4);
+      const afterValue = Math.max(0, beforeValue - drops);
+      console.info('[diagnostic] gauge evaluated', {
+        partnerId: row.partner_id, device: p.device, mon: p.mon,
+        gauge, sleeping: !!p.sleeping, enabled: notificationsEnabled,
+        mode, before: beforeValue, after: afterValue, drops,
+        stamp, now, elapsedMs, cycleMs: VER20_GAUGE_CYCLE,
+        thresholdCrossed: drops > 0 && gaugeThresholdCrossed(mode, beforeValue, afterValue)
+      });
       if (drops > 0) {
-        const before = Number(settings[gauge] ?? 4);
-        const after = Math.max(0, before - drops);
+        const before = beforeValue;
+        const after = afterValue;
         settings[gauge] = after;
         if (notificationsEnabled && gaugeThresholdCrossed(mode, before, after)) {
           const key = `${row.partner_id}:${stageKey(p)}:${gauge}:${after}:ver20-gauge`;
