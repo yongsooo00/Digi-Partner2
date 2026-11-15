@@ -89,9 +89,14 @@ async function sendToDevice(env, deviceId, payload) {
   return { delivered, removed, failed };
 }
 async function notifyOnce(env, deviceId, key, now, payload) {
-  if (await alreadySent(env, key)) return false;
+  if (await alreadySent(env, key)) {
+    console.info('[diagnostic] alert skipped: already sent', { eventKey: key, title: payload.title });
+    return false;
+  }
+  console.info('[diagnostic] alert attempt', { deviceId, eventKey: key, title: payload.title });
   const result = await sendToDevice(env, deviceId, payload);
   if (result.delivered > 0 || result.removed > 0) await markSent(env, key, now);
+  console.info('[diagnostic] alert result', { eventKey: key, ...result });
   return result.delivered > 0;
 }
 function gaugeThresholdCrossed(mode, before, after) {
@@ -170,6 +175,20 @@ async function handleRequest(request, env) {
     if (!body?.deviceId || !Array.isArray(body.partners)) return json({ ok: false, error: 'deviceId and partners[] required' }, 400, headers);
     const now = Date.now(); let saved = 0;
     const activeIds = new Set();
+    console.info('[diagnostic] state received', {
+      deviceId: String(body.deviceId),
+      partnerCount: body.partners.length,
+      partners: body.partners.map(p => ({
+        id: p?.id, device: p?.device, mon: p?.mon, stage: p?.stage,
+        sleeping: !!p?.sleeping,
+        notificationsEnabled: p?.notifications?.enabled !== false,
+        gaugeMode: p?.notifications?.gauge || 'both',
+        hunger: p?.notifications?.hunger,
+        strength: p?.notifications?.strength,
+        hungerUnits: p?.notifications?.hungerUnits,
+        strengthUnits: p?.notifications?.strengthUnits
+      }))
+    });
     for (const p of body.partners) {
       if (!p?.id || !familyOf(p)) continue;
       const partnerId = String(p.id);
@@ -189,6 +208,10 @@ async function handleRequest(request, env) {
           .bind(String(row.partner_id), String(body.deviceId)).run();
       }
     }
+    console.info('[diagnostic] state saved', {
+      deviceId: String(body.deviceId), received: body.partners.length, saved,
+      skipped: body.partners.length - saved, deleted: (existing.results || []).filter(row => !activeIds.has(String(row.partner_id))).length
+    });
     return json({ ok: true, saved, updatedAt: now }, 200, headers);
   }
   if (url.pathname === '/api/push/test' && request.method === 'POST') {
@@ -205,10 +228,26 @@ async function handleRequest(request, env) {
 
 async function checkPartner(env, row, now) {
   let p;
-  try { p = JSON.parse(row.state_json); } catch { return; }
+  try { p = JSON.parse(row.state_json); }
+  catch (error) {
+    console.error('[diagnostic] invalid partner state JSON', { partnerId: row.partner_id, error: error?.message || String(error) });
+    return;
+  }
   const family = familyOf(p);
-  if (!family) return;
+  if (!family) {
+    console.warn('[diagnostic] unsupported device family', { partnerId: row.partner_id, device: p.device });
+    return;
+  }
   const settings = p.notifications || {};
+  console.info('[diagnostic] partner checked', {
+    partnerId: row.partner_id, deviceId: row.device_id, family, device: p.device,
+    mon: p.mon, stage: p.stage, sleeping: !!p.sleeping,
+    notificationsEnabled: settings.enabled !== false, gaugeMode: settings.gauge || 'both',
+    hunger: settings.hunger, strength: settings.strength,
+    hungerUnits: settings.hungerUnits, strengthUnits: settings.strengthUnits,
+    hungerGaugeUpdatedAt: p.hungerGaugeUpdatedAt, strengthGaugeUpdatedAt: p.strengthGaugeUpdatedAt,
+    hungerDecayAt: p.hungerDecayAt, strengthDecayAt: p.strengthDecayAt
+  });
   let changed = false;
 
   if (p.sleeping) {
@@ -315,12 +354,23 @@ async function checkPartner(env, row, now) {
     .bind(JSON.stringify(p), now, row.partner_id).run();
 }
 async function checkScheduledEvents(env) {
-  const now = Date.now();
+  const startedAt = Date.now();
+  const now = startedAt;
+  console.info('[diagnostic] cron started', { at: new Date(now).toISOString() });
   const rows = await env.DB.prepare('SELECT partner_id, device_id, state_json FROM partners').all();
-  for (const row of rows.results || []) {
-    try { await checkPartner(env, row, now); }
-    catch (error) { console.error('partner processing failed', row.partner_id, error?.message || error); }
+  const partners = rows.results || [];
+  console.info('[diagnostic] cron loaded partners', { count: partners.length });
+  let processed = 0, failed = 0;
+  for (const row of partners) {
+    try { await checkPartner(env, row, now); processed++; }
+    catch (error) {
+      failed++;
+      console.error('[diagnostic] partner processing failed', row.partner_id, error?.message || error);
+    }
   }
+  console.info('[diagnostic] cron completed', {
+    processed, failed, durationMs: Date.now() - startedAt
+  });
 }
 export default {
   async fetch(request, env) { return handleRequest(request, env); },
